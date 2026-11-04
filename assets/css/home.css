@@ -1,0 +1,80 @@
+/* Homepage composition. Shared tokens/components live in main.css. */
+body[data-page="home"] .hero { background: var(--white); color: var(--home-ink); min-height: 0; padding-top: 28px; overflow: visible; }
+body[data-page="home"] .hero-inner { min-height: 0; display: grid; grid-template-columns: 1.1fr 1fr; gap: 36px; padding: 40px; background: var(--home-blue-light); border: 1px solid var(--home-border); border-radius: var(--home-panel-radius); }
+body[data-page="home"] .hero-copy-block { min-width: 0; padding: 8px 0; }
+body[data-page="home"] .hero .eyebrow { margin-bottom: 22px; }
+body[data-page="home"] .hero h1 { font-size: clamp(2.6rem, 4.45vw, 4rem); line-height: 1.06; letter-spacing: -.035em; margin: 0 0 24px; }
+body[data-page="home"] .hero h1 em { font-style: normal; color: var(--home-blue); }
+body[data-page="home"] .hero-copy { max-width: 445px; color: var(--home-muted); font-size: 16px; line-height: 1.8; margin: 0; }
+body[data-page="home"] .hero-actions { gap: 12px; margin-top: 28px; }
+body[data-page="home"] .hero-media { min-width: 0; height: auto; margin: 0; order: initial; align-self: stretch; display: flex; flex-direction: column; }
+body[data-page="home"] .hero-media img { width: 100%; height: 395px; object-fit: cover; object-position: 55% 50%; border-radius: 18px; clip-path: none; }
+body[data-page="home"] .hero-media figcaption { padding-top: 12px; font-size: 12px; color: var(--home-muted); }
+body[data-page="home"] .section-heading { align-items: flex-end; gap: 24px; margin-bottom: 30px; }
+body[data-page="home"] .section-heading h2 { margin-bottom: 0; }
+body[data-page="home"] .section-link { flex-shrink: 0; }
+body[data-page="home"] .course-grid { gap: 20px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+body[data-page="home"] .programs-section { padding-block: 0; }
+body[data-page="home"] .paths { grid-template-columns: .9fr 1.1fr; gap: 64px; padding: 48px; border-radius: var(--home-panel-radius); border: 1px solid var(--home-border); background: var(--home-surface); }
+body[data-page="home"] .paths h2 { margin-bottom: 20px; }
+body[data-page="home"] .paths p { color: var(--home-muted); margin-bottom: 24px; }
+body[data-page="home"] .path-list { border-top: 1px solid var(--home-border); }
+body[data-page="home"] .path-item { grid-template-columns: 44px minmax(0, 1fr) 32px; gap: 12px; padding: 24px 0; border-color: var(--home-border); transition: color var(--home-speed); }
+body[data-page="home"] .path-item:hover { color: var(--home-blue); }
+body[data-page="home"] .path-number { color: var(--home-blue); font-size: 24px; }
+body[data-page="home"] .path-item h3 { font-family: var(--sans); font-size: 18px; font-weight: 600; line-height: 1.4; }
+body[data-page="home"] .path-item small { display: block; font-size: 12px; color: var(--home-muted); margin-top: 6px; }
+.path-arrow { display: grid; place-items: center; width: 32px; height: 32px; color: var(--home-blue); }
+body[data-page="home"] .mentor-grid { gap: 28px; }
+body[data-page="home"] .mentor-card > img { height: 288px; border-radius: var(--home-radius); object-position: center 35%; }
+.mentor-card__info { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 20px; }
+body[data-page="home"] .mentor-card h3 { margin: 0 0 4px; font-family: var(--sans); font-size: 20px; font-weight: 600; }
+body[data-page="home"] .mentor-card p { font-size: 14px; color: var(--home-muted); }
+body[data-page="home"] .mentor-card .demo-note { font-size: 12px; margin-top: 8px; }
+.mentor-link { display: grid; place-items: center; height: 44px; width: 44px; border-radius: 50%; border: 1px solid var(--home-border); color: var(--home-blue); transition: background var(--home-speed); }
+.mentor-link:hover { background: var(--home-blue-light); }
+
+@media (max-width: 1100px) {
+  body[data-page="home"] .hero-inner { padding: 32px; gap: 28px; }
+  body[data-page="home"] .hero-media img { height: 370px; }
+  body[data-page="home"] .course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  body[data-page="home"] .paths { gap: 32px; padding: 36px; }
+}
+@media (max-width: 900px) {
+  body[data-page="home"] .hero-inner { grid-template-columns: 1fr; gap: 28px; padding: 32px; }
+  body[data-page="home"] .hero h1 { max-width: 650px; font-size: clamp(2.5rem, 7.1vw, 3.75rem); }
+  body[data-page="home"] .hero-copy { max-width: 560px; }
+  body[data-page="home"] .hero-media img { height: 330px; }
+  body[data-page="home"] .section-heading { align-items: flex-start; }
+  body[data-page="home"] .section-link { font-size: 13px; }
+  body[data-page="home"] .paths { grid-template-columns: 1fr; }
+  body[data-page="home"] .mentor-grid { gap: 16px; }
+  body[data-page="home"] .mentor-card > img { height: 230px; }
+  body[data-page="home"] .mentor-card h3 { font-size: 17px; }
+  .mentor-card__info { flex-wrap: wrap; }
+}
+@media (max-width: 600px) {
+  body[data-page="home"] .hero { padding-top: 16px; }
+  body[data-page="home"] .hero-inner { padding: 24px 20px; border-radius: 20px; }
+  body[data-page="home"] .hero h1 { font-size: clamp(2.3rem, 10vw, 3.1rem); letter-spacing: -.035em; }
+  body[data-page="home"] .hero h1 br { display: none; }
+  body[data-page="home"] .hero-copy { font-size: 15px; line-height: 1.75; }
+  body[data-page="home"] .hero .eyebrow { font-size: 12px; margin-bottom: 18px; }
+  body[data-page="home"] .hero-actions { display: grid; grid-template-columns: 1fr; margin-top: 24px; }
+  body[data-page="home"] .hero-actions .btn { width: 100%; }
+  body[data-page="home"] .hero-media img { height: 255px; border-radius: 12px; }
+  body[data-page="home"] .hero-media figcaption { font-size: 11px; line-height: 1.6; }
+  body[data-page="home"] .section-heading { display: block; margin-bottom: 24px; }
+  body[data-page="home"] .section-heading .section-link { display: inline-flex; margin-top: 12px; }
+  body[data-page="home"] .section-heading h2 { font-size: 32px; }
+  body[data-page="home"] .course-grid { grid-template-columns: 1fr; gap: 20px; }
+  body[data-page="home"] .paths { padding: 28px 20px; border-radius: 20px; gap: 32px; }
+  body[data-page="home"] .path-item { grid-template-columns: 28px minmax(0, 1fr) 24px; gap: 10px; }
+  body[data-page="home"] .path-item h3 { font-size: 16px; }
+  body[data-page="home"] .path-number { font-size: 20px; }
+  body[data-page="home"] .path-item small { font-size: 11px; }
+  .path-arrow { width: 24px; }
+  body[data-page="home"] .mentor-grid { grid-template-columns: 1fr; gap: 32px; }
+  body[data-page="home"] .mentor-card > img { height: 310px; }
+  body[data-page="home"] .mentor-card h3 { font-size: 20px; }
+}

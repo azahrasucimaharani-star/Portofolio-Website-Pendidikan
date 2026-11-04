@@ -1,0 +1,186 @@
+- generic [active] [ref=f2e1]:
+  - link "Langsung ke konten" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link "Educourse — Beranda" [ref=f2e5] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=f2e6]: Educourse.
+      - navigation "Navigasi utama" [ref=f2e7]:
+        - link "Beranda" [ref=f2e8] [cursor=pointer]:
+          - /url: index.html
+        - link "Jelajahi Kelas" [ref=f2e9] [cursor=pointer]:
+          - /url: kelas.html
+        - link "Program Belajar" [ref=f2e10] [cursor=pointer]:
+          - /url: program.html
+        - link "Mentor" [ref=f2e11] [cursor=pointer]:
+          - /url: mentor.html
+        - link "Tentang Kami" [ref=f2e12] [cursor=pointer]:
+          - /url: tentang.html
+  - main [ref=f2e13]:
+    - region [ref=f2e14]:
+      - generic [ref=f2e15]:
+        - generic [ref=f2e16]:
+          - generic [ref=f2e17]: Ruang belajar, peluang baru.
+          - heading [level=1] [ref=f2e18]:
+            - text: Belajar keterampilanuntuk
+            - emphasis [ref=f2e19]: masa depanmu.
+          - paragraph [ref=f2e20]: Kembangkan rasa ingin tahu menjadi keterampilan. Temukan kelas terstruktur dan jalur belajar yang sesuai dengan tujuanmu.
+          - generic [ref=f2e21]:
+            - link "Jelajahi Kelas" [ref=f2e22] [cursor=pointer]:
+              - /url: kelas.html
+            - link "Lihat Program" [ref=f2e25] [cursor=pointer]:
+              - /url: program.html
+        - figure "Temukan perspektif baru. Mulai dari rasa ingin tahu." [ref=f2e26]:
+          - img "Pelajar bertukar ide sambil belajar bersama menggunakan laptop" [ref=f2e27]
+    - region [ref=f2e29]:
+      - generic [ref=f2e30]:
+        - generic [ref=f2e31]:
+          - generic [ref=f2e32]:
+            - generic [ref=f2e33]: Kelas populer
+            - heading "Langkah kecil, keterampilan baru." [level=2] [ref=f2e34]
+          - link "Lihat Semua Kelas" [ref=f2e35] [cursor=pointer]:
+            - /url: kelas.html
+        - generic [ref=f2e38]:
+          - article [ref=f2e39]:
+            - link [ref=f2e40] [cursor=pointer]:
+              - /url: detail-kelas.html?id=html-css-fondasi
+              - generic [ref=f2e42]:
+                - generic [ref=f2e43]: Web Development
+                - heading "Fondasi HTML & CSS" [level=3] [ref=f2e44]
+                - generic [ref=f2e45]:
+                  - generic [ref=f2e46]: Pemula
+                  - generic [ref=f2e49]: 6 modul
+                - generic [ref=f2e53]:
+                  - strong [ref=f2e54]: Raka Wijaya
+                  - generic [ref=f2e55]: Frontend Development
+          - article [ref=f2e59]:
+            - link [ref=f2e60] [cursor=pointer]:
+              - /url: detail-kelas.html?id=ui-ux-fundamentals
+              - generic [ref=f2e62]:
+                - generic [ref=f2e63]: Design
+                - heading "UI/UX Fundamentals" [level=3] [ref=f2e64]
+                - generic [ref=f2e65]:
+                  - generic [ref=f2e66]: Pemula
+                  - generic [ref=f2e69]: 6 modul
+                - generic [ref=f2e73]:
+                  - strong [ref=f2e74]: Maya Pradipta
+                  - generic [ref=f2e75]: Product Design
+          - article [ref=f2e79]:
+            - link [ref=f2e80] [cursor=pointer]:
+              - /url: detail-kelas.html?id=excel-untuk-analisis
+              - generic [ref=f2e82]:
+                - generic [ref=f2e83]: Data
+                - heading "Excel untuk Analisis" [level=3] [ref=f2e84]
+                - generic [ref=f2e85]:
+                  - generic [ref=f2e86]: Pemula
+                  - generic [ref=f2e89]: 5 modul
+                - generic [ref=f2e93]:
+                  - strong [ref=f2e94]: Sinta Lestari
+                  - generic [ref=f2e95]: Data Analytics
+          - article [ref=f2e99]:
+            - link [ref=f2e100] [cursor=pointer]:
+              - /url: detail-kelas.html?id=presentasi-profesional
+              - generic [ref=f2e102]:
+                - generic [ref=f2e103]: Career
+                - heading "Presentasi Profesional" [level=3] [ref=f2e104]
+                - generic [ref=f2e105]:
+                  - generic [ref=f2e106]: Pemula
+                  - generic [ref=f2e109]: 4 modul
+                - generic [ref=f2e113]:
+                  - strong [ref=f2e114]: Bima Ardana
+                  - generic [ref=f2e115]: Career & Communication
+        - paragraph [ref=f2e119]: Pilihan kelas demo · Pendaftaran belum dibuka.
+    - region [ref=f2e120]:
+      - generic [ref=f2e121]:
+        - generic [ref=f2e122]:
+          - generic [ref=f2e123]: Program belajar
+          - heading "Punya tujuan? Temukan jalurnya." [level=2] [ref=f2e124]: Punya tujuan?Temukan jalurnya.
+          - paragraph [ref=f2e125]: Susun langkah belajarmu dari fondasi hingga praktik, dengan kelas yang saling terhubung.
+          - link "Jelajahi Program" [ref=f2e126] [cursor=pointer]:
+            - /url: program.html
+        - generic [ref=f2e129]:
+          - link "01 Frontend Developer Pemula–Menengah · 8–10 minggu" [ref=f2e130] [cursor=pointer]:
+            - /url: detail-program.html?id=frontend-developer
+            - generic [ref=f2e131]: "01"
+            - generic [ref=f2e132]:
+              - heading "Frontend Developer" [level=3] [ref=f2e133]
+              - generic [ref=f2e134]: Pemula–Menengah · 8–10 minggu
+          - link "02 UI/UX Fundamentals Pemula · 6–8 minggu" [ref=f2e138] [cursor=pointer]:
+            - /url: detail-program.html?id=ui-ux-fundamentals
+            - generic [ref=f2e139]: "02"
+            - generic [ref=f2e140]:
+              - heading "UI/UX Fundamentals" [level=3] [ref=f2e141]
+              - generic [ref=f2e142]: Pemula · 6–8 minggu
+          - link "03 Data Analyst Starter Pemula–Menengah · 7–9 minggu" [ref=f2e146] [cursor=pointer]:
+            - /url: detail-program.html?id=data-analyst-starter
+            - generic [ref=f2e147]: "03"
+            - generic [ref=f2e148]:
+              - heading "Data Analyst Starter" [level=3] [ref=f2e149]
+              - generic [ref=f2e150]: Pemula–Menengah · 7–9 minggu
+    - region [ref=f2e154]:
+      - generic [ref=f2e155]:
+        - generic [ref=f2e156]:
+          - generic [ref=f2e157]:
+            - generic [ref=f2e158]: Mentor pilihan
+            - heading "Perspektif baru untuk belajarmu." [level=2] [ref=f2e159]
+          - link "Kenali Mentor" [ref=f2e160] [cursor=pointer]:
+            - /url: mentor.html
+        - generic [ref=f2e163]:
+          - article [ref=f2e164]:
+            - img "Foto ilustrasi untuk profil mentor demo Maya Pradipta" [ref=f2e165]
+            - generic [ref=f2e166]:
+              - generic [ref=f2e167]:
+                - heading "Maya Pradipta" [level=3] [ref=f2e168]
+                - paragraph [ref=f2e169]: Product Design
+              - link "Lihat kelas Maya Pradipta" [ref=f2e170] [cursor=pointer]:
+                - /url: detail-kelas.html?id=ui-ux-fundamentals
+            - paragraph [ref=f2e173]: Profil mentor demo
+          - article [ref=f2e174]:
+            - img "Foto ilustrasi untuk profil mentor demo Raka Wijaya" [ref=f2e175]
+            - generic [ref=f2e176]:
+              - generic [ref=f2e177]:
+                - heading "Raka Wijaya" [level=3] [ref=f2e178]
+                - paragraph [ref=f2e179]: Frontend Development
+              - link "Lihat kelas Raka Wijaya" [ref=f2e180] [cursor=pointer]:
+                - /url: detail-kelas.html?id=html-css-fondasi
+            - paragraph [ref=f2e183]: Profil mentor demo
+          - article [ref=f2e184]:
+            - img "Foto ilustrasi untuk profil mentor demo Sinta Lestari" [ref=f2e185]
+            - generic [ref=f2e186]:
+              - generic [ref=f2e187]:
+                - heading "Sinta Lestari" [level=3] [ref=f2e188]
+                - paragraph [ref=f2e189]: Data Analytics
+              - link "Lihat kelas Sinta Lestari" [ref=f2e190] [cursor=pointer]:
+                - /url: detail-kelas.html?id=excel-untuk-analisis
+            - paragraph [ref=f2e193]: Profil mentor demo
+    - region [ref=f2e194]:
+      - generic [ref=f2e195]:
+        - generic [ref=f2e196]:
+          - generic [ref=f2e197]: Mulai dari sini
+          - heading "Masa depanmu dimulai dari satu langkah." [level=2] [ref=f2e198]: Masa depanmu dimulaidari satu langkah.
+          - paragraph [ref=f2e199]: Temukan kelas yang membuatmu ingin belajar lagi.
+        - link "Temukan Kelas" [ref=f2e200] [cursor=pointer]:
+          - /url: kelas.html
+  - contentinfo [ref=f2e204]:
+    - generic [ref=f2e205]:
+      - generic [ref=f2e206]:
+        - link "Educourse — Beranda" [ref=f2e207] [cursor=pointer]:
+          - /url: index.html
+          - generic [ref=f2e208]: Educourse.
+        - paragraph [ref=f2e209]: Ruang belajar demo untuk keterampilan yang relevan dengan masa depan.
+      - generic [ref=f2e210]:
+        - heading "Jelajahi" [level=3] [ref=f2e211]
+        - generic [ref=f2e212]:
+          - link "Semua Kelas" [ref=f2e213] [cursor=pointer]:
+            - /url: kelas.html
+          - link "Program Belajar" [ref=f2e214] [cursor=pointer]:
+            - /url: program.html
+          - link "Mentor" [ref=f2e215] [cursor=pointer]:
+            - /url: mentor.html
+      - generic [ref=f2e216]:
+        - heading "Catatan" [level=3] [ref=f2e217]
+        - paragraph [ref=f2e218]: Seluruh konten, mentor, dan institusi pada situs ini adalah data demo untuk portofolio.
+    - generic [ref=f2e219]:
+      - generic [ref=f2e220]: © 2026 EDUCOURSE — Demo portfolio
+      - generic [ref=f2e221]: Frontend-only · Tanpa pendaftaran internal

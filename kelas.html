@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jelajahi Kelas — Educourse</title>
+  <meta name="description" content="Temukan kelas demo Educourse berdasarkan topik dan level belajarmu.">
+  <meta property="og:title" content="Jelajahi Kelas — Educourse"><meta property="og:description" content="Langkah kecil, keterampilan baru. Jelajahi pilihan kelas demo Educourse.">
+  <link rel="icon" type="image/png" href="assets/images/educourse-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css"><link rel="stylesheet" href="assets/css/responsive.css"><link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="kelas">
+  <a class="skip-link" href="#main-content">Langsung ke konten</a>
+  <header class="site-header" data-navbar></header>
+  <main id="main-content" tabindex="-1">
+    <header class="page-header"><div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span aria-hidden="true">/</span><span aria-current="page">Jelajahi Kelas</span></nav>
+      <span class="eyebrow">Jelajahi rasa ingin tahumu</span>
+      <h1>Temukan kelas yang tepat untukmu.</h1>
+      <p class="lede">Mulai dari topik yang menarik perhatianmu. Pilih kelas berdasarkan minat dan level, lalu pelajari detailnya.</p>
+    </div></header>
+    <section class="section catalog-section" aria-label="Katalog kelas demo"><div class="container">
+      <form class="filter-bar" id="catalog-filters" role="search" aria-label="Filter kelas">
+        <div class="field"><label for="search">Cari kelas</label><input id="search" type="search" placeholder="Misalnya: JavaScript" autocomplete="off"></div>
+        <div class="field"><label for="category">Kategori</label><select id="category"><option value="">Semua kategori</option></select></div>
+        <div class="field"><label for="level">Level</label><select id="level"><option value="">Semua level</option></select></div>
+        <div class="field"><label for="sort">Urutkan</label><select id="sort"><option value="">Terbaru</option><option value="title">Alfabetis</option></select></div>
+        <button class="btn btn--outline" id="reset" type="button">Reset</button>
+      </form>
+      <p class="result-count" id="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div class="catalog-grid" id="catalog-grid"></div>
+      <p class="demo-note">Seluruh kelas dan profil mentor merupakan data demo. Pendaftaran belum dibuka.</p>
+    </div></section>
+  </main>
+  <div data-footer></div>
+  <script src="assets/js/data/mentors.js"></script><script src="assets/js/data/courses.js"></script><script src="assets/js/main.js"></script><script src="assets/js/catalog.js"></script>
+</body>
+</html>

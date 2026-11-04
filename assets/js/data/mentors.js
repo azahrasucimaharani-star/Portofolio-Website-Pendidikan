@@ -1,0 +1,6 @@
+const mentors=[
+ {id:'maya-pradipta',name:'Maya Pradipta',specialty:'Product Design',experience:'Praktisi desain produk dalam data demo Educourse.',photo:'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=80',courseIds:['ui-ux-fundamentals','design-system-praktis']},
+ {id:'raka-wijaya',name:'Raka Wijaya',specialty:'Frontend Development',experience:'Mentor frontend pada materi demo Educourse.',photo:'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80',courseIds:['html-css-fondasi','javascript-interaktif','frontend-react']},
+ {id:'sinta-lestari',name:'Sinta Lestari',specialty:'Data Analytics',experience:'Pengajar analitik data untuk simulasi pembelajaran.',photo:'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=700&q=80',courseIds:['excel-untuk-analisis','data-analytics-starter']},
+ {id:'bima-ardana',name:'Bima Ardana',specialty:'Career & Communication',experience:'Fasilitator komunikasi profesional dalam data demo.',photo:'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=700&q=80',courseIds:['presentasi-profesional','career-portfolio']}
+];
