@@ -1,5 +1,7 @@
+.DS_Store
+Thumbs.db
 .playwright-mcp/
 .brud/
-.vscode/
-qa-*.png
+review/
+mockup/
 *.log
