@@ -1,0 +1,4 @@
+[     131ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at http://localhost:8001/assets/js/catalog.js:5:48
+    at Array.forEach (<anonymous>)
+    at http://localhost:8001/assets/js/catalog.js:5:33

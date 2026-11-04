@@ -1,0 +1,17 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - link "Lewati ke konten" [ref=f7e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f7e4]:
+      - navigation "Navigasi utama" [ref=f7e5]:
+        - link "EduLearn, beranda" [ref=f7e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f7e7]: ▣
+          - text: EduLearn
+        - button "Buka menu" [ref=f7e9] [cursor=pointer]: ☰
+  - main [ref=f7e10]:
+    - generic [ref=f7e12]:
+      - heading "Kelas tidak ditemukan" [level=1] [ref=f7e13]
+      - paragraph [ref=f7e14]: ID kelas tidak tersedia atau sudah berubah.
+      - link "Kembali ke katalog" [ref=f7e15] [cursor=pointer]:
+        - /url: kelas.html

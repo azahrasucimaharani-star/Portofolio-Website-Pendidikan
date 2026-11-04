@@ -1,0 +1,97 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - link "Lewati ke konten" [ref=f11e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f11e4]:
+      - navigation "Navigasi utama" [ref=f11e5]:
+        - link "EduLearn, beranda" [ref=f11e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f11e7]: ▣
+          - text: EduLearn
+        - list [ref=f11e8]:
+          - listitem [ref=f11e9]:
+            - link "Beranda" [ref=f11e10] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=f11e11]:
+            - link "Jelajahi Kelas" [ref=f11e12] [cursor=pointer]:
+              - /url: kelas.html
+          - listitem [ref=f11e13]:
+            - link "Program Belajar" [ref=f11e14] [cursor=pointer]:
+              - /url: program.html
+          - listitem [ref=f11e15]:
+            - link "Mentor" [ref=f11e16] [cursor=pointer]:
+              - /url: mentor.html
+          - listitem [ref=f11e17]:
+            - link "Tentang Kami" [ref=f11e18] [cursor=pointer]:
+              - /url: tentang.html
+        - generic [ref=f11e19]:
+          - link "Cari kelas" [ref=f11e20] [cursor=pointer]:
+            - /url: kelas.html
+            - text: ⌕
+          - link "Mulai Belajar" [ref=f11e21] [cursor=pointer]:
+            - /url: kelas.html
+  - main [ref=f11e22]:
+    - generic [ref=f11e24]:
+      - heading "Program Belajar" [level=1] [ref=f11e25]
+      - paragraph [ref=f11e26]: Jalur kelas terurut yang membantu kamu membangun kemampuan secara bertahap.
+    - generic [ref=f11e28]:
+      - article [ref=f11e29]:
+        - generic [ref=f11e30]:
+          - generic [ref=f11e31]: Pemula–Menengah
+          - heading "Frontend Developer" [level=2] [ref=f11e32]
+          - paragraph [ref=f11e33]: Membangun website responsif, mengintegrasikan api, dan menyusun proyek portofolio.
+          - generic [ref=f11e34]:
+            - generic [ref=f11e35]: 2 kelas
+            - generic [ref=f11e36]: 10 minggu
+          - link "Lihat detail program" [ref=f11e37] [cursor=pointer]:
+            - /url: detail-program.html?id=frontend-developer
+      - article [ref=f11e38]:
+        - generic [ref=f11e39]:
+          - generic [ref=f11e40]: Pemula–Menengah
+          - heading "UI/UX Fundamentals" [level=2] [ref=f11e41]
+          - paragraph [ref=f11e42]: Melakukan riset pengguna, mendesain antarmuka, dan menyusun studi kasus.
+          - generic [ref=f11e43]:
+            - generic [ref=f11e44]: 2 kelas
+            - generic [ref=f11e45]: 8 minggu
+          - link "Lihat detail program" [ref=f11e46] [cursor=pointer]:
+            - /url: detail-program.html?id=ui-ux-fundamentals
+      - article [ref=f11e47]:
+        - generic [ref=f11e48]:
+          - generic [ref=f11e49]: Pemula
+          - heading "Data Analyst Starter" [level=2] [ref=f11e50]
+          - paragraph [ref=f11e51]: Membersihkan data, menganalisis data tabular, dan menyajikan insight.
+          - generic [ref=f11e52]:
+            - generic [ref=f11e53]: 1 kelas
+            - generic [ref=f11e54]: 5 minggu
+          - link "Lihat detail program" [ref=f11e55] [cursor=pointer]:
+            - /url: detail-program.html?id=data-analyst-starter
+      - article [ref=f11e56]:
+        - generic [ref=f11e57]:
+          - generic [ref=f11e58]: SMP
+          - heading "Paket Sains SMP" [level=2] [ref=f11e59]
+          - paragraph [ref=f11e60]: Menguasai konsep IPA inti, meningkatkan kemampuan berhitung, dan lebih siap menghadapi evaluasi sekolah.
+          - generic [ref=f11e61]:
+            - generic [ref=f11e62]: 2 kelas
+            - generic [ref=f11e63]: 12 minggu
+          - link "Lihat detail program" [ref=f11e64] [cursor=pointer]:
+            - /url: detail-program.html?id=sains-smp
+      - article [ref=f11e65]:
+        - generic [ref=f11e66]:
+          - generic [ref=f11e67]: SMA
+          - heading "Paket Sains SMA" [level=2] [ref=f11e68]
+          - paragraph [ref=f11e69]: Memahami fondasi pelajaran eksakta, menyelesaikan soal secara sistematis, dan mempersiapkan ujian sekolah.
+          - generic [ref=f11e70]:
+            - generic [ref=f11e71]: 4 kelas
+            - generic [ref=f11e72]: 16 minggu
+          - link "Lihat detail program" [ref=f11e73] [cursor=pointer]:
+            - /url: detail-program.html?id=sains-sma
+      - article [ref=f11e74]:
+        - generic [ref=f11e75]:
+          - generic [ref=f11e76]: SMP–SMA
+          - heading "Persiapan Ujian Sekolah" [level=2] [ref=f11e77]
+          - paragraph [ref=f11e78]: Menyusun strategi belajar, berlatih soal lintas mata pelajaran, dan mengukur kesiapan ujian.
+          - generic [ref=f11e79]:
+            - generic [ref=f11e80]: 4 kelas
+            - generic [ref=f11e81]: 10 minggu
+          - link "Lihat detail program" [ref=f11e82] [cursor=pointer]:
+            - /url: detail-program.html?id=persiapan-ujian

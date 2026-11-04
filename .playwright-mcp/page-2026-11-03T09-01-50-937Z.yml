@@ -1,0 +1,90 @@
+- generic [active] [ref=f22e1]:
+  - generic [ref=f22e2]:
+    - link "Lewati ke konten" [ref=f22e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f22e4]:
+      - navigation "Navigasi utama" [ref=f22e5]:
+        - link "EduLearn, beranda" [ref=f22e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f22e7]: ▣
+          - text: EduLearn
+        - button "Buka menu" [ref=f22e9] [cursor=pointer]: ☰
+  - main [ref=f22e10]:
+    - generic [ref=f22e12]:
+      - heading "Jelajahi Kelas" [level=1] [ref=f22e13]
+      - paragraph [ref=f22e14]: Temukan kelas praktis berdasarkan topik, tingkat kemampuan, dan tujuan belajarmu.
+      - strong [ref=f22e15]: 2 kelas ditemukan
+    - generic [ref=f22e16]:
+      - generic [ref=f22e17]:
+        - generic [ref=f22e18]:
+          - generic [ref=f22e19]: Cari kelas
+          - searchbox "Cari kelas" [ref=f22e20]
+        - generic [ref=f22e21]:
+          - generic [ref=f22e22]: Kategori
+          - combobox "Kategori" [ref=f22e23]:
+            - option "Semua kategori"
+            - option "Bimbel" [selected]
+            - option "Matematika"
+            - option "IPA"
+            - option "Fisika"
+            - option "Geografi"
+            - option "Biologi"
+            - option "Kimia"
+            - option "Bahasa Inggris"
+            - option "Bahasa Indonesia"
+            - option "Ekonomi"
+            - option "Sejarah"
+            - option "Informatika"
+            - option "Desain"
+            - option "Pemrograman"
+            - option "Data"
+            - option "Bisnis"
+        - generic [ref=f22e24]:
+          - generic [ref=f22e25]: Tingkat
+          - combobox "Tingkat" [ref=f22e26]:
+            - option "Semua tingkat" [selected]
+            - option "Pemula"
+            - option "Menengah"
+        - generic [ref=f22e27]:
+          - generic [ref=f22e28]: Jenjang
+          - combobox "Jenjang" [ref=f22e29]:
+            - option "Semua jenjang"
+            - option "SD"
+            - option "SMP" [selected]
+            - option "SMA"
+            - option "Umum"
+      - generic [ref=f22e30]:
+        - article [ref=f22e31]:
+          - link [ref=f22e32] [cursor=pointer]:
+            - /url: detail-kelas.html?id=bimbel-smp-kelas-7-9
+            - img "Materi kelas Bimbel SMP Kelas 7–9" [ref=f22e33]
+          - generic [ref=f22e34]:
+            - generic [ref=f22e35]: Bimbel
+            - heading [level=3] [ref=f22e36]:
+              - link "Bimbel SMP Kelas 7–9" [ref=f22e37] [cursor=pointer]:
+                - /url: detail-kelas.html?id=bimbel-smp-kelas-7-9
+            - generic "Rating 4.9 dari 5" [ref=f22e38]: ★ 4.9 (380)
+            - generic [ref=f22e39]:
+              - generic [ref=f22e40]: 20 modul
+              - generic [ref=f22e41]: 40 jam
+              - generic [ref=f22e42]: Menengah
+            - generic [ref=f22e43]:
+              - generic [ref=f22e44]: Rp299.000/bulan
+              - button "Simpan kelas" [ref=f22e45] [cursor=pointer]: ♡
+        - article [ref=f22e46]:
+          - link [ref=f22e47] [cursor=pointer]:
+            - /url: detail-kelas.html?id=bimbel-smp-persiapan-ujian
+            - img "Materi kelas Bimbel SMP Persiapan Ujian" [ref=f22e48]
+          - generic [ref=f22e49]:
+            - generic [ref=f22e50]: Bimbel
+            - heading [level=3] [ref=f22e51]:
+              - link "Bimbel SMP Persiapan Ujian" [ref=f22e52] [cursor=pointer]:
+                - /url: detail-kelas.html?id=bimbel-smp-persiapan-ujian
+            - generic "Rating 4.8 dari 5" [ref=f22e53]: ★ 4.8 (275)
+            - generic [ref=f22e54]:
+              - generic [ref=f22e55]: 15 modul
+              - generic [ref=f22e56]: 30 jam
+              - generic [ref=f22e57]: Menengah
+            - generic [ref=f22e58]:
+              - generic [ref=f22e59]: Rp279.000/bulan
+              - button "Simpan kelas" [ref=f22e60] [cursor=pointer]: ♡

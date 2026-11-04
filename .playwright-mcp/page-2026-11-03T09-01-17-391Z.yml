@@ -1,0 +1,53 @@
+- generic [active] [ref=f16e1]:
+  - generic [ref=f16e2]:
+    - link "Lewati ke konten" [ref=f16e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f16e4]:
+      - navigation "Navigasi utama" [ref=f16e5]:
+        - link "EduLearn, beranda" [ref=f16e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f16e7]: ▣
+          - text: EduLearn
+        - button "Buka menu" [ref=f16e9] [cursor=pointer]: ☰
+  - main [ref=f16e10]:
+    - generic [ref=f16e12]:
+      - heading "Jelajahi Kelas" [level=1] [ref=f16e13]
+      - paragraph [ref=f16e14]: Temukan kelas praktis berdasarkan topik, tingkat kemampuan, dan tujuan belajarmu.
+      - strong [ref=f16e15]: 13 kelas ditemukan
+    - generic [ref=f16e17]:
+      - generic [ref=f16e18]:
+        - generic [ref=f16e19]: Cari kelas
+        - searchbox "Cari kelas" [ref=f16e20]
+      - generic [ref=f16e21]:
+        - generic [ref=f16e22]: Kategori
+        - combobox "Kategori" [ref=f16e23]:
+          - option "Semua kategori"
+          - option "Bimbel" [selected]
+          - option "Bimbel"
+          - option "Matematika"
+          - option "IPA"
+          - option "Fisika"
+          - option "Geografi"
+          - option "Biologi"
+          - option "Kimia"
+          - option "Bahasa Inggris"
+          - option "Bahasa Indonesia"
+          - option "Ekonomi"
+          - option "Sejarah"
+          - option "Informatika"
+          - option "Desain"
+          - option "Pemrograman"
+          - option "Data"
+          - option "Bisnis"
+      - generic [ref=f16e24]:
+        - generic [ref=f16e25]: Tingkat
+        - combobox "Tingkat" [ref=f16e26]:
+          - option "Semua tingkat" [selected]
+          - option "Pemula"
+          - option "Menengah"
+      - generic [ref=f16e27]:
+        - generic [ref=f16e28]: Urutkan
+        - combobox "Urutkan" [ref=f16e29]:
+          - option "Terpopuler" [selected]
+          - option "A–Z"
+          - option "Harga terendah"

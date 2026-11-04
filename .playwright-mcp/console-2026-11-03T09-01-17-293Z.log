@@ -1,0 +1,2 @@
+[      54ms] TypeError: Cannot read properties of null (reading 'options')
+    at http://localhost:8001/assets/js/catalog.js:3:253

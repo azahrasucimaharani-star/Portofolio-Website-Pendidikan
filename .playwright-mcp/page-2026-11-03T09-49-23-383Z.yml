@@ -1,0 +1,249 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - link "Lewati ke konten" [ref=f1e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f1e4]:
+      - navigation "Navigasi utama" [ref=f1e5]:
+        - link "Cendekia Prima, beranda" [ref=f1e6] [cursor=pointer]:
+          - /url: index.html
+          - text: Cendekia Prima
+        - list [ref=f1e7]:
+          - listitem [ref=f1e8]:
+            - link "Beranda" [ref=f1e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=f1e10]:
+            - link "Program Bimbel" [ref=f1e11] [cursor=pointer]:
+              - /url: program.html
+          - listitem [ref=f1e12]:
+            - link "Jadwal & Biaya" [ref=f1e13] [cursor=pointer]:
+              - /url: jadwal.html
+          - listitem [ref=f1e14]:
+            - link "Tutor" [ref=f1e15] [cursor=pointer]:
+              - /url: tutor.html
+          - listitem [ref=f1e16]:
+            - link "Tentang Kami" [ref=f1e17] [cursor=pointer]:
+              - /url: tentang.html
+        - link "Lihat Program" [ref=f1e18] [cursor=pointer]:
+          - /url: program.html
+  - main [ref=f1e19]:
+    - generic [ref=f1e21]:
+      - generic [ref=f1e22]:
+        - text: Bimbingan belajar SD hingga UTBK
+        - heading "Pendampingan Belajar yang Lebih Terarah" [level=1] [ref=f1e23]
+        - paragraph [ref=f1e24]: Kelas kecil, tutor berpengalaman, dan evaluasi berkala untuk membantu siswa memahami materi dengan lebih percaya diri.
+        - generic [ref=f1e25]:
+          - link "Lihat Program" [ref=f1e26] [cursor=pointer]:
+            - /url: program.html
+          - link "Cek Jadwal" [ref=f1e27] [cursor=pointer]:
+            - /url: jadwal.html
+      - figure [ref=f1e28]:
+        - img "Sekelompok siswa belajar bersama menggunakan laptop dan buku" [ref=f1e29]
+    - complementary "Ringkasan layanan" [ref=f1e30]:
+      - list [ref=f1e31]:
+        - listitem [ref=f1e32]:
+          - strong [ref=f1e33]: "8"
+          - text: Program belajar
+        - listitem [ref=f1e34]:
+          - strong [ref=f1e35]: "6"
+          - text: Tutor pengajar
+        - listitem [ref=f1e36]:
+          - strong [ref=f1e37]: 8–15
+          - text: Siswa per kelas
+        - listitem [ref=f1e38]:
+          - strong [ref=f1e39]: Bulanan
+          - text: Evaluasi perkembangan
+    - region [ref=f1e40]:
+      - generic [ref=f1e41]:
+        - generic [ref=f1e42]:
+          - heading "Program Unggulan" [level=2] [ref=f1e43]
+          - paragraph [ref=f1e44]: Pilihan program berdasarkan jenjang dan kebutuhan belajar siswa.
+        - link "Lihat Semua Program" [ref=f1e45] [cursor=pointer]:
+          - /url: program.html
+      - generic [ref=f1e46]:
+        - article [ref=f1e47]:
+          - link [ref=f1e48] [cursor=pointer]:
+            - /url: detail-program.html?id=matematika-sd-dasar
+            - img "Siswa mengikuti Matematika SD Dasar" [ref=f1e49]
+          - generic [ref=f1e50]:
+            - generic [ref=f1e51]:
+              - generic [ref=f1e52]: SD
+              - generic [ref=f1e53]: Tatap muka
+            - heading [level=3] [ref=f1e54]:
+              - link "Matematika SD Dasar" [ref=f1e55] [cursor=pointer]:
+                - /url: detail-program.html?id=matematika-sd-dasar
+            - paragraph [ref=f1e56]: Matematika
+            - generic [ref=f1e57]:
+              - generic [ref=f1e58]: 2x per minggu
+              - generic [ref=f1e59]: Maks. 10 siswa
+            - paragraph [ref=f1e60]: "Tutor: Maya Lestari"
+            - generic [ref=f1e61]:
+              - generic [ref=f1e62]: Rp275.000/bulan
+              - link "Lihat Detail" [ref=f1e63] [cursor=pointer]:
+                - /url: detail-program.html?id=matematika-sd-dasar
+        - article [ref=f1e64]:
+          - link [ref=f1e65] [cursor=pointer]:
+            - /url: detail-program.html?id=ipa-smp-reguler
+            - img "Siswa mengikuti IPA SMP Reguler" [ref=f1e66]
+          - generic [ref=f1e67]:
+            - generic [ref=f1e68]:
+              - generic [ref=f1e69]: SMP
+              - generic [ref=f1e70]: Hybrid
+            - heading [level=3] [ref=f1e71]:
+              - link "IPA SMP Reguler" [ref=f1e72] [cursor=pointer]:
+                - /url: detail-program.html?id=ipa-smp-reguler
+            - paragraph [ref=f1e73]: IPA
+            - generic [ref=f1e74]:
+              - generic [ref=f1e75]: 2x per minggu
+              - generic [ref=f1e76]: Maks. 12 siswa
+            - paragraph [ref=f1e77]: "Tutor: Dimas Prakoso"
+            - generic [ref=f1e78]:
+              - generic [ref=f1e79]: Rp325.000/bulan
+              - link "Lihat Detail" [ref=f1e80] [cursor=pointer]:
+                - /url: detail-program.html?id=ipa-smp-reguler
+        - article [ref=f1e81]:
+          - link [ref=f1e82] [cursor=pointer]:
+            - /url: detail-program.html?id=matematika-sma-intensif
+            - img "Siswa mengikuti Matematika SMA Intensif" [ref=f1e83]
+          - generic [ref=f1e84]:
+            - generic [ref=f1e85]:
+              - generic [ref=f1e86]: SMA/SMK
+              - generic [ref=f1e87]: Tatap muka
+            - heading [level=3] [ref=f1e88]:
+              - link "Matematika SMA Intensif" [ref=f1e89] [cursor=pointer]:
+                - /url: detail-program.html?id=matematika-sma-intensif
+            - paragraph [ref=f1e90]: Matematika
+            - generic [ref=f1e91]:
+              - generic [ref=f1e92]: 3x per minggu
+              - generic [ref=f1e93]: Maks. 8 siswa
+            - paragraph [ref=f1e94]: "Tutor: Raka Pratama"
+            - generic [ref=f1e95]:
+              - generic [ref=f1e96]: Rp450.000/bulan
+              - link "Lihat Detail" [ref=f1e97] [cursor=pointer]:
+                - /url: detail-program.html?id=matematika-sma-intensif
+        - article [ref=f1e98]:
+          - link [ref=f1e99] [cursor=pointer]:
+            - /url: detail-program.html?id=fisika-sma-reguler
+            - img "Siswa mengikuti Fisika SMA Reguler" [ref=f1e100]
+          - generic [ref=f1e101]:
+            - generic [ref=f1e102]:
+              - generic [ref=f1e103]: SMA/SMK
+              - generic [ref=f1e104]: Online
+            - heading [level=3] [ref=f1e105]:
+              - link "Fisika SMA Reguler" [ref=f1e106] [cursor=pointer]:
+                - /url: detail-program.html?id=fisika-sma-reguler
+            - paragraph [ref=f1e107]: Fisika
+            - generic [ref=f1e108]:
+              - generic [ref=f1e109]: 2x per minggu
+              - generic [ref=f1e110]: Maks. 10 siswa
+            - paragraph [ref=f1e111]: "Tutor: Andi Wijaya"
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]: Rp375.000/bulan
+              - link "Lihat Detail" [ref=f1e114] [cursor=pointer]:
+                - /url: detail-program.html?id=fisika-sma-reguler
+    - region [ref=f1e115]:
+      - generic [ref=f1e116]:
+        - generic [ref=f1e118]:
+          - heading "Belajar dengan Proses yang Terukur" [level=2] [ref=f1e119]
+          - paragraph [ref=f1e120]: Pendampingan dirancang agar siswa dan orang tua memahami perkembangan belajar.
+        - generic [ref=f1e121]:
+          - article [ref=f1e122]:
+            - text: "01"
+            - heading "Kelas kecil" [level=3] [ref=f1e123]
+            - paragraph [ref=f1e124]: Kapasitas terbatas memberi ruang bagi tutor untuk memperhatikan kebutuhan setiap siswa.
+          - article [ref=f1e125]:
+            - text: "02"
+            - heading "Evaluasi berkala" [level=3] [ref=f1e126]
+            - paragraph [ref=f1e127]: Latihan dan evaluasi membantu memetakan materi yang sudah dan belum dikuasai.
+          - article [ref=f1e128]:
+            - text: "03"
+            - heading "Try out" [level=3] [ref=f1e129]
+            - paragraph [ref=f1e130]: Simulasi untuk melatih strategi, ketelitian, dan pengelolaan waktu menghadapi ujian.
+          - article [ref=f1e131]:
+            - text: "04"
+            - heading "Laporan perkembangan" [level=3] [ref=f1e132]
+            - paragraph [ref=f1e133]: Orang tua menerima ringkasan perkembangan dan area belajar yang perlu diperkuat.
+    - region [ref=f1e134]:
+      - generic [ref=f1e135]:
+        - generic [ref=f1e136]:
+          - heading "Tutor Pilihan" [level=2] [ref=f1e137]
+          - paragraph [ref=f1e138]: Pengajar yang membantu siswa memahami konsep melalui pembahasan bertahap.
+        - link "Lihat Semua Tutor" [ref=f1e139] [cursor=pointer]:
+          - /url: tutor.html
+      - generic [ref=f1e140]:
+        - article [ref=f1e141]:
+          - img "Maya Lestari, tutor Matematika SD" [ref=f1e142]
+          - generic [ref=f1e143]:
+            - heading "Maya Lestari" [level=3] [ref=f1e144]
+            - paragraph [ref=f1e145]:
+              - strong [ref=f1e146]: Matematika SD
+            - paragraph [ref=f1e147]: 6 tahun mendampingi siswa SD memahami konsep berhitung melalui latihan kontekstual.
+        - article [ref=f1e148]:
+          - img "Dimas Prakoso, tutor IPA SMP dan Penalaran Umum" [ref=f1e149]
+          - generic [ref=f1e150]:
+            - heading "Dimas Prakoso" [level=3] [ref=f1e151]
+            - paragraph [ref=f1e152]:
+              - strong [ref=f1e153]: IPA SMP, Penalaran Umum
+            - paragraph [ref=f1e154]: 5 tahun mengajar IPA dan membimbing siswa membangun cara berpikir ilmiah.
+        - article [ref=f1e155]:
+          - img "Raka Pratama, tutor Matematika SMA dan Penalaran Matematika" [ref=f1e156]
+          - generic [ref=f1e157]:
+            - heading "Raka Pratama" [level=3] [ref=f1e158]
+            - paragraph [ref=f1e159]:
+              - strong [ref=f1e160]: Matematika SMA, Penalaran Matematika
+            - paragraph [ref=f1e161]: 7 tahun mengajar Matematika SMA dan persiapan ujian masuk perguruan tinggi.
+        - article [ref=f1e162]:
+          - img "Andi Wijaya, tutor Fisika" [ref=f1e163]
+          - generic [ref=f1e164]:
+            - heading "Andi Wijaya" [level=3] [ref=f1e165]
+            - paragraph [ref=f1e166]:
+              - strong [ref=f1e167]: Fisika
+            - paragraph [ref=f1e168]: 6 tahun membantu siswa memahami Fisika melalui visualisasi dan pembahasan bertahap.
+    - region [ref=f1e169]:
+      - generic [ref=f1e171]:
+        - heading "Cerita dari Orang Tua dan Siswa" [level=2] [ref=f1e172]
+        - paragraph [ref=f1e173]: Pengalaman belajar bersama Cendekia Prima.
+      - generic [ref=f1e174]:
+        - article [ref=f1e175]:
+          - text: Orang tua siswa SMP
+          - blockquote [ref=f1e176]: “Penjelasan jadwal dan perkembangannya mudah dipahami. Anak kami juga lebih berani bertanya ketika belum mengerti.”
+          - strong [ref=f1e177]: Ibu Nita
+        - article [ref=f1e178]:
+          - text: Siswa SMA
+          - blockquote [ref=f1e179]: “Pembahasan soal dilakukan pelan-pelan dari konsepnya, jadi saya tidak hanya menghafal rumus.”
+          - strong [ref=f1e180]: Rafi, kelas 11
+        - article [ref=f1e181]:
+          - text: Peserta UTBK
+          - blockquote [ref=f1e182]: “Try out membantu saya melihat topik yang perlu diprioritaskan dan mengatur waktu pengerjaan.”
+          - strong [ref=f1e183]: Alya, kelas 12
+    - generic [ref=f1e185]:
+      - generic [ref=f1e186]:
+        - heading "Temukan Program yang Sesuai" [level=2] [ref=f1e187]
+        - paragraph [ref=f1e188]: Bandingkan jenjang, jadwal, format kelas, dan biaya sebelum memilih.
+      - link "Lihat Program Bimbel" [ref=f1e189] [cursor=pointer]:
+        - /url: program.html
+  - contentinfo [ref=f1e191]:
+    - generic [ref=f1e192]:
+      - generic [ref=f1e193]:
+        - generic [ref=f1e194]:
+          - link "Cendekia Prima" [ref=f1e195] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=f1e196]: Bimbingan belajar untuk membantu siswa memahami konsep dan membangun kebiasaan belajar yang terarah.
+        - generic [ref=f1e197]:
+          - strong [ref=f1e198]: Navigasi
+          - list [ref=f1e199]:
+            - listitem [ref=f1e200]:
+              - link "Program Bimbel" [ref=f1e201] [cursor=pointer]:
+                - /url: program.html
+            - listitem [ref=f1e202]:
+              - link "Jadwal & Biaya" [ref=f1e203] [cursor=pointer]:
+                - /url: jadwal.html
+            - listitem [ref=f1e204]:
+              - link "Tutor" [ref=f1e205] [cursor=pointer]:
+                - /url: tutor.html
+        - generic [ref=f1e206]:
+          - strong [ref=f1e207]: Kontak
+          - list [ref=f1e208]:
+            - listitem [ref=f1e209]: info@cendekiaprima.id
+            - listitem [ref=f1e210]: Jl. Pendidikan No. 25, Jakarta
+            - listitem [ref=f1e211]: Senin–Sabtu, 09.00–20.00
+      - generic [ref=f1e212]: © 2026 Cendekia Prima. Seluruh hak dilindungi.

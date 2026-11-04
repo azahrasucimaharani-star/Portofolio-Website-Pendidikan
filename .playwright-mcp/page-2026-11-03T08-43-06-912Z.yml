@@ -1,0 +1,51 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - link "Lewati ke konten" [ref=f6e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f6e4]:
+      - navigation "Navigasi utama" [ref=f6e5]:
+        - link "EduLearn, beranda" [ref=f6e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f6e7]: ▣
+          - text: EduLearn
+        - button "Buka menu" [ref=f6e9] [cursor=pointer]: ☰
+  - main [ref=f6e10]:
+    - generic [ref=f6e11]:
+      - generic [ref=f6e12]:
+        - link "Beranda" [ref=f6e13] [cursor=pointer]:
+          - /url: index.html
+        - text: /
+        - link "Program" [ref=f6e14] [cursor=pointer]:
+          - /url: program.html
+        - text: / Frontend Developer
+      - generic [ref=f6e16]:
+        - generic [ref=f6e17]: Pemula–Menengah
+        - heading "Frontend Developer" [level=1] [ref=f6e18]
+        - paragraph [ref=f6e19]: Pemula yang ingin memulai karier sebagai frontend developer.
+        - generic [ref=f6e20]:
+          - generic [ref=f6e21]: 2 kelas
+          - generic [ref=f6e22]: 10 minggu
+      - generic [ref=f6e23]:
+        - generic [ref=f6e24]:
+          - heading "Urutan belajar" [level=2] [ref=f6e25]
+          - list [ref=f6e26]:
+            - listitem [ref=f6e27]:
+              - heading "Dasar Pemrograman Web (HTML, CSS, JS)" [level=3] [ref=f6e28]
+              - paragraph [ref=f6e29]: Bangun website responsif dari nol menggunakan teknologi web fundamental.
+              - link "Buka detail kelas" [ref=f6e30] [cursor=pointer]:
+                - /url: detail-kelas.html?id=web-fundamental
+            - listitem [ref=f6e31]:
+              - heading "JavaScript Modern dan API" [level=3] [ref=f6e32]
+              - paragraph [ref=f6e33]: Perdalam JavaScript modern, asynchronous programming, dan integrasi API.
+              - link "Buka detail kelas" [ref=f6e34] [cursor=pointer]:
+                - /url: detail-kelas.html?id=javascript-lanjutan
+        - complementary [ref=f6e35]:
+          - heading "Hasil belajar" [level=2] [ref=f6e36]
+          - list [ref=f6e37]:
+            - listitem [ref=f6e38]: Membangun website responsif
+            - listitem [ref=f6e39]: Mengintegrasikan API
+            - listitem [ref=f6e40]: Menyusun proyek portofolio
+          - heading "Prasyarat" [level=2] [ref=f6e41]
+          - paragraph [ref=f6e42]: Mampu mengoperasikan komputer dan browser.
+          - link "Jelajahi kelas" [ref=f6e43] [cursor=pointer]:
+            - /url: kelas.html

@@ -1,0 +1,69 @@
+- generic [active] [ref=f25e1]:
+  - generic [ref=f25e2]:
+    - link "Lewati ke konten" [ref=f25e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f25e4]:
+      - navigation "Navigasi utama" [ref=f25e5]:
+        - link "EduLearn, beranda" [ref=f25e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f25e7]: ▣
+          - text: EduLearn
+        - button "Buka menu" [ref=f25e9] [cursor=pointer]: ☰
+  - main [ref=f25e10]:
+    - generic [ref=f25e11]:
+      - generic [ref=f25e12]:
+        - link "Beranda" [ref=f25e13] [cursor=pointer]:
+          - /url: index.html
+        - text: /
+        - link "Kelas" [ref=f25e14] [cursor=pointer]:
+          - /url: kelas.html
+        - text: / Bimbel SMA Kelas 10–12
+      - generic [ref=f25e15]:
+        - generic [ref=f25e16]:
+          - generic [ref=f25e17]:
+            - generic [ref=f25e18]: Bimbel
+            - generic [ref=f25e19]: SMA
+          - paragraph [ref=f25e20]: Bimbel reguler
+          - heading "Bimbel SMA Kelas 10–12" [level=1] [ref=f25e21]
+          - paragraph [ref=f25e22]: Pendampingan Matematika, Fisika, Kimia, dan Biologi untuk siswa kelas 10–12.
+          - generic [ref=f25e23]:
+            - generic [ref=f25e24]: Menengah
+            - generic [ref=f25e25]: 44 jam
+            - generic [ref=f25e26]: 22 modul
+            - generic [ref=f25e27]: "Mentor: Raka Pratama"
+        - img "Materi pembelajaran Bimbel SMA Kelas 10–12" [ref=f25e28]
+      - generic [ref=f25e29]:
+        - generic [ref=f25e30]:
+          - heading "Yang akan dipelajari" [level=2] [ref=f25e31]
+          - list [ref=f25e32]:
+            - listitem [ref=f25e33]: Memahami konsep pelajaran SMA
+            - listitem [ref=f25e34]: Menyusun strategi belajar
+            - listitem [ref=f25e35]: Mempersiapkan evaluasi sekolah
+          - heading "Kurikulum" [level=2] [ref=f25e36]
+          - generic [ref=f25e37]:
+            - generic [ref=f25e38]:
+              - button "1. Diagnostik awal" [expanded] [ref=f25e39] [cursor=pointer]
+              - generic [ref=f25e40]: Materi, latihan, dan evaluasi singkat untuk topik diagnostik awal.
+            - button "2. Matematika" [ref=f25e42] [cursor=pointer]
+            - button "3. Fisika" [ref=f25e44] [cursor=pointer]
+            - button "4. Kimia" [ref=f25e46] [cursor=pointer]
+            - button "5. Biologi" [ref=f25e48] [cursor=pointer]
+            - button "6. Konsultasi tugas" [ref=f25e50] [cursor=pointer]
+            - button "7. Evaluasi bulanan" [ref=f25e52] [cursor=pointer]
+        - complementary [ref=f25e53]:
+          - generic [ref=f25e54]:
+            - heading "Ringkasan kelas" [level=2] [ref=f25e55]
+            - paragraph [ref=f25e56]:
+              - strong [ref=f25e57]: Rp349.000/bulan
+            - paragraph [ref=f25e58]: "Jenis layanan: Bimbel reguler"
+            - paragraph [ref=f25e59]: "Jenjang: SMA"
+            - paragraph [ref=f25e60]: Pendaftaran belum tersedia
+          - generic [ref=f25e61]:
+            - heading "Persyaratan" [level=2] [ref=f25e62]
+            - list [ref=f25e63]:
+              - listitem [ref=f25e64]: Siswa SMA kelas 10, 11, atau 12
+            - heading "Mentor" [level=2] [ref=f25e65]
+            - paragraph [ref=f25e66]:
+              - strong [ref=f25e67]: Raka Pratama
+              - text: Data Analyst
+            - paragraph [ref=f25e68]: Praktisi analitik yang berfokus pada pengambilan keputusan berbasis data.

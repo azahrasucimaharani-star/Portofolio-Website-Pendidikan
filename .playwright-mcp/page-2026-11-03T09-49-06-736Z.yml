@@ -1,0 +1,152 @@
+- generic [active] [ref=e1]:
+  - link "Lewati ke konten" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - navigation "Navigasi utama" [ref=e4]:
+      - link "SMA Cakrawala Nusa Bandung · Berdiri 1984" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e6]:
+          - text: SMA Cakrawala Nusa
+          - generic [ref=e7]: Bandung · Berdiri 1984
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Beranda" [ref=e10] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=e11]:
+          - link "Profil" [ref=e12] [cursor=pointer]:
+            - /url: profil.html
+        - listitem [ref=e13]:
+          - link "Akademik" [ref=e14] [cursor=pointer]:
+            - /url: akademik.html
+        - listitem [ref=e15]:
+          - link "Berita & Kegiatan" [ref=e16] [cursor=pointer]:
+            - /url: berita.html
+        - listitem [ref=e17]:
+          - link "PPDB" [ref=e18] [cursor=pointer]:
+            - /url: ppdb.html
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - img "Lingkungan kampus SMA Cakrawala Nusa" [ref=e21]
+      - generic [ref=e23]:
+        - paragraph [ref=e24]: Sekolah menengah atas di Bandung
+        - heading "Ilmu yang tumbuh. Karakter yang berakar." [level=1] [ref=e25]: Ilmu yang tumbuh.Karakter yang berakar.
+        - paragraph [ref=e26]: Mendampingi generasi muda untuk berpikir jernih, bertindak dengan empati, dan berkarya bagi masyarakat.
+        - generic [ref=e27]:
+          - link "Jelajahi sekolah" [ref=e28] [cursor=pointer]:
+            - /url: profil.html
+          - link "Lihat program akademik" [ref=e29] [cursor=pointer]:
+            - /url: akademik.html
+      - complementary [ref=e30]:
+        - text: Sejak
+        - strong [ref=e31]: "1984"
+        - paragraph [ref=e32]: Empat dekade pendidikan yang berakar pada ilmu dan pengabdian.
+    - region "Cakrawala Nusa dalam angka" [ref=e33]:
+      - paragraph [ref=e34]: Cakrawala Nusa dalam angka
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - term [ref=e37]: "0"
+          - definition [ref=e38]: Siswa aktif
+        - generic [ref=e39]:
+          - term [ref=e40]: "0"
+          - definition [ref=e41]: Pendidik dan tenaga kependidikan
+        - generic [ref=e42]:
+          - term [ref=e43]: "0"
+          - definition [ref=e44]: Prestasi tahun ini
+        - generic [ref=e45]:
+          - term [ref=e46]: "0"
+          - definition [ref=e47]: Program pengembangan siswa
+    - generic [ref=e48]:
+      - img "Dr. Maya Kartika, Kepala SMA Cakrawala Nusa" [ref=e50]
+      - generic [ref=e51]:
+        - paragraph [ref=e52]: 01 / Sambutan kepala sekolah
+        - blockquote [ref=e53]: “Sekolah bukan sekadar tempat memperoleh jawaban, tetapi ruang untuk belajar mengajukan pertanyaan yang berarti.”
+        - paragraph [ref=e54]: Kami mendampingi setiap siswa untuk mengenali potensinya, mengolah pengetahuan dengan jernih, dan menggunakan kemampuannya secara bertanggung jawab.
+        - paragraph [ref=e55]:
+          - strong [ref=e56]: Dr. Maya Kartika
+          - generic [ref=e57]: Kepala Sekolah, periode 2022–sekarang
+        - link "Baca profil sekolah" [ref=e58] [cursor=pointer]:
+          - /url: profil.html
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - paragraph [ref=e61]: 02 / Pengalaman belajar
+        - heading "Pendidikan yang menghubungkan pengetahuan dengan kehidupan." [level=2] [ref=e62]
+        - link "Seluruh program akademik" [ref=e63] [cursor=pointer]:
+          - /url: akademik.html
+      - generic [ref=e64]:
+        - article [ref=e65]:
+          - generic [ref=e66]: "01"
+          - generic [ref=e67]:
+            - heading "Science & Research" [level=3] [ref=e68]
+            - paragraph [ref=e69]: Eksperimen, metode ilmiah, dan komunikasi hasil riset.
+          - generic [aria-hidden] [ref=e70]: SR
+        - article [ref=e71]:
+          - generic [ref=e72]: "02"
+          - generic [ref=e73]:
+            - heading "Global Communication" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Bahasa, debat, dan pemahaman lintas budaya.
+          - generic [aria-hidden] [ref=e76]: GC
+        - article [ref=e77]:
+          - generic [ref=e78]: "03"
+          - generic [ref=e79]:
+            - heading "Digital Innovation" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Komputasi, desain produk, dan etika teknologi.
+          - generic [aria-hidden] [ref=e82]: DI
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - paragraph [ref=e85]: 03 / Jurnal sekolah
+        - heading "Kabar terbaru dari kampus." [level=2] [ref=e86]
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - img "Siswa melakukan penelitian sains" [ref=e89]
+          - paragraph [ref=e90]: Prestasi, 28 Oktober 2026
+          - heading "Tim Riset Siswa Raih Emas Festival Sains Nasional" [level=3] [ref=e91]
+          - link "Baca cerita" [ref=e92] [cursor=pointer]:
+            - /url: detail-berita.html?id=festival-sains-2026
+        - generic [ref=e93]:
+          - article [ref=e94]:
+            - paragraph [ref=e95]: Kegiatan, 20 Oktober 2026
+            - heading "Pekan Literasi Menghidupkan Budaya Baca dan Dialog" [level=3] [ref=e96]
+            - link "Baca berita" [ref=e97] [cursor=pointer]:
+              - /url: detail-berita.html?id=pekan-literasi
+          - article [ref=e98]:
+            - paragraph [ref=e99]: Berita, 12 Oktober 2026
+            - heading "Ruang Kelas Kolaboratif Resmi Digunakan" [level=3] [ref=e100]
+            - link "Baca berita" [ref=e101] [cursor=pointer]:
+              - /url: detail-berita.html?id=kelas-kolaboratif
+          - link "Lihat seluruh kabar sekolah" [ref=e102] [cursor=pointer]:
+            - /url: berita.html
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - paragraph [ref=e105]: Penerimaan siswa baru 2027/2028
+        - heading "Kenali lingkungan belajar Cakrawala Nusa." [level=2] [ref=e106]
+      - link "Informasi pendaftaran" [ref=e107] [cursor=pointer]:
+        - /url: ppdb.html
+  - contentinfo [ref=e108]:
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - link "SMA Cakrawala Nusa Bandung · Berdiri 1984" [ref=e112] [cursor=pointer]:
+            - /url: index.html
+            - generic [ref=e113]:
+              - text: SMA Cakrawala Nusa
+              - generic [ref=e114]: Bandung · Berdiri 1984
+          - paragraph [ref=e115]: Sekolah menengah atas yang bertumbuh dalam tradisi ilmu, karakter, dan pengabdian sejak 1984.
+        - generic [ref=e116]:
+          - heading "Navigasi" [level=3] [ref=e117]
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link "Profil sekolah" [ref=e120] [cursor=pointer]:
+                - /url: profil.html
+            - listitem [ref=e121]:
+              - link "Program akademik" [ref=e122] [cursor=pointer]:
+                - /url: akademik.html
+            - listitem [ref=e123]:
+              - link "Berita & kegiatan" [ref=e124] [cursor=pointer]:
+                - /url: berita.html
+            - listitem [ref=e125]:
+              - link "Informasi PPDB" [ref=e126] [cursor=pointer]:
+                - /url: ppdb.html
+        - generic [ref=e127]:
+          - heading "Kontak sekolah" [level=3] [ref=e128]
+          - paragraph [ref=e129]: Jl. Rancakendala No. 17, Bandung 40191humas@cakrawalanusa.sch.id(022) 730 1984
+      - generic [ref=e130]: © 2026 SMA Cakrawala Nusa. Hak cipta dilindungi.

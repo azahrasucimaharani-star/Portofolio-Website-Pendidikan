@@ -1,0 +1,169 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e2]:
+    - link "Lewati ke konten" [ref=f14e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f14e4]:
+      - navigation "Navigasi utama" [ref=f14e5]:
+        - link "EduLearn, beranda" [ref=f14e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f14e7]: ▣
+          - text: EduLearn
+        - button "Buka menu" [ref=f14e9] [cursor=pointer]: ☰
+  - main [ref=f14e10]:
+    - generic [ref=f14e12]:
+      - heading "Belajar Sesuai Jenjangmu" [level=1] [ref=f14e13]
+      - paragraph [ref=f14e14]: Pilih tingkat pendidikan untuk menemukan mata pelajaran, program, dan pendamping belajar yang relevan.
+    - navigation "Pilihan layanan belajar" [ref=f14e15]:
+      - generic [ref=f14e16]:
+        - link "Jenjang" [ref=f14e17] [cursor=pointer]:
+          - /url: "#jenjang"
+        - link "Rekomendasi" [ref=f14e18] [cursor=pointer]:
+          - /url: "#rekomendasi"
+        - link "Mata Pelajaran" [ref=f14e19] [cursor=pointer]:
+          - /url: "#mata-pelajaran"
+        - link "Mentor" [ref=f14e20] [cursor=pointer]:
+          - /url: "#mentor-list-section"
+    - region [ref=f14e21]:
+      - generic [ref=f14e23]:
+        - heading "Pilih Jenjang Pendidikan" [level=2] [ref=f14e24]
+        - paragraph [ref=f14e25]: Mulai dari tingkat yang sesuai dengan kebutuhan belajarmu.
+      - generic [ref=f14e26]:
+        - link [ref=f14e27] [cursor=pointer]:
+          - /url: kelas.html?level=Pemula
+          - text: Kelas 4–6
+          - heading "Sekolah Dasar" [level=3] [ref=f14e28]
+          - paragraph [ref=f14e29]: Fondasi berhitung, sains, bahasa, dan pengetahuan umum.
+        - link [ref=f14e30] [cursor=pointer]:
+          - /url: detail-program.html?id=sains-smp
+          - text: Kelas 7–9
+          - heading "Sekolah Menengah Pertama" [level=3] [ref=f14e31]
+          - paragraph [ref=f14e32]: Pendalaman konsep Matematika, IPA, bahasa, dan sosial.
+        - link [ref=f14e33] [cursor=pointer]:
+          - /url: detail-program.html?id=sains-sma
+          - text: Kelas 10–12
+          - heading "Sekolah Menengah Atas" [level=3] [ref=f14e34]
+          - paragraph [ref=f14e35]: Materi eksakta dan sosial untuk sekolah serta persiapan ujian.
+    - region [ref=f14e36]:
+      - generic [ref=f14e37]:
+        - generic [ref=f14e38]:
+          - generic [ref=f14e39]:
+            - heading "Rekomendasi Program" [level=2] [ref=f14e40]
+            - paragraph [ref=f14e41]: Pilihan jalur belajar berdasarkan kebutuhan pelajar.
+          - link "Lihat semua program" [ref=f14e42] [cursor=pointer]:
+            - /url: program.html
+        - generic [ref=f14e43]:
+          - link "Paket Sains SMP Matematika dan IPA terpadu" [ref=f14e44] [cursor=pointer]:
+            - /url: detail-program.html?id=sains-smp
+            - strong [ref=f14e45]: Paket Sains SMP
+            - generic [ref=f14e46]: Matematika dan IPA terpadu
+          - link "Paket Sains SMA Matematika, Fisika, Biologi, dan Kimia" [ref=f14e47] [cursor=pointer]:
+            - /url: detail-program.html?id=sains-sma
+            - strong [ref=f14e48]: Paket Sains SMA
+            - generic [ref=f14e49]: Matematika, Fisika, Biologi, dan Kimia
+          - link "Persiapan Ujian Latihan terarah lintas mata pelajaran" [ref=f14e50] [cursor=pointer]:
+            - /url: detail-program.html?id=persiapan-ujian
+            - strong [ref=f14e51]: Persiapan Ujian
+            - generic [ref=f14e52]: Latihan terarah lintas mata pelajaran
+    - region [ref=f14e53]:
+      - generic [ref=f14e55]:
+        - heading "Mata Pelajaran" [level=2] [ref=f14e56]
+        - paragraph [ref=f14e57]: Akses materi berdasarkan bidang yang ingin dipelajari.
+      - generic [ref=f14e58]:
+        - link "Matematika" [ref=f14e59] [cursor=pointer]:
+          - /url: kelas.html?category=Matematika
+        - link "IPA" [ref=f14e60] [cursor=pointer]:
+          - /url: kelas.html?category=IPA
+        - link "Fisika" [ref=f14e61] [cursor=pointer]:
+          - /url: kelas.html?category=Fisika
+        - link "Geografi" [ref=f14e62] [cursor=pointer]:
+          - /url: kelas.html?category=Geografi
+        - link "Biologi" [ref=f14e63] [cursor=pointer]:
+          - /url: kelas.html?category=Biologi
+        - link "Kimia" [ref=f14e64] [cursor=pointer]:
+          - /url: kelas.html?category=Kimia
+        - link "Bahasa Inggris" [ref=f14e65] [cursor=pointer]:
+          - /url: kelas.html?category=Bahasa%20Inggris
+    - region [ref=f14e66]:
+      - generic [ref=f14e68]:
+        - heading "Mentor Profesional" [level=2] [ref=f14e69]
+        - paragraph [ref=f14e70]: Belajar bersama pengajar dengan bidang keahlian yang sesuai.
+      - generic [ref=f14e71]:
+        - article [ref=f14e72]:
+          - img "Raka Pratama, Data Analyst" [ref=f14e73]
+          - generic [ref=f14e74]:
+            - heading "Raka Pratama" [level=3] [ref=f14e75]
+            - paragraph [ref=f14e76]: Data Analyst
+            - paragraph [ref=f14e77]: Praktisi analitik yang berfokus pada pengambilan keputusan berbasis data.
+            - paragraph [ref=f14e78]:
+              - link "Analisis Data dengan Excel" [ref=f14e79] [cursor=pointer]:
+                - /url: detail-kelas.html?id=excel-data
+              - 'link "Matematika SMA: Aljabar dan Fungsi" [ref=f14e80] [cursor=pointer]':
+                - /url: detail-kelas.html?id=matematika-sma
+              - 'link "Kimia Dasar: Atom dan Reaksi" [ref=f14e81] [cursor=pointer]':
+                - /url: detail-kelas.html?id=kimia-dasar
+        - article [ref=f14e82]:
+          - img "Nadia Siregar, Product Designer" [ref=f14e83]
+          - generic [ref=f14e84]:
+            - heading "Nadia Siregar" [level=3] [ref=f14e85]
+            - paragraph [ref=f14e86]: Product Designer
+            - paragraph [ref=f14e87]: Desainer produk dengan pengalaman membangun pengalaman digital yang inklusif.
+            - paragraph [ref=f14e88]:
+              - link "UI/UX Design untuk Pemula" [ref=f14e89] [cursor=pointer]:
+                - /url: detail-kelas.html?id=ui-ux-pemula
+              - link "Riset Produk Digital" [ref=f14e90] [cursor=pointer]:
+                - /url: detail-kelas.html?id=product-research
+              - link "IPA Terpadu untuk SMP" [ref=f14e91] [cursor=pointer]:
+                - /url: detail-kelas.html?id=ipa-terpadu
+        - article [ref=f14e92]:
+          - img "Andi Wijaya, Frontend Engineer" [ref=f14e93]
+          - generic [ref=f14e94]:
+            - heading "Andi Wijaya" [level=3] [ref=f14e95]
+            - paragraph [ref=f14e96]: Frontend Engineer
+            - paragraph [ref=f14e97]: Engineer yang mengajar fondasi web melalui proyek dan praktik langsung.
+            - paragraph [ref=f14e98]:
+              - link "Dasar Pemrograman Web (HTML, CSS, JS)" [ref=f14e99] [cursor=pointer]:
+                - /url: detail-kelas.html?id=web-fundamental
+              - link "JavaScript Modern dan API" [ref=f14e100] [cursor=pointer]:
+                - /url: detail-kelas.html?id=javascript-lanjutan
+              - 'link "Fisika Dasar: Gerak, Gaya, dan Energi" [ref=f14e101] [cursor=pointer]':
+                - /url: detail-kelas.html?id=fisika-dasar
+        - article [ref=f14e102]:
+          - img "Putri Anindya, Digital Marketing Specialist" [ref=f14e103]
+          - generic [ref=f14e104]:
+            - heading "Putri Anindya" [level=3] [ref=f14e105]
+            - paragraph [ref=f14e106]: Digital Marketing Specialist
+            - paragraph [ref=f14e107]: Strategis pemasaran digital yang berfokus pada pertumbuhan terukur.
+            - paragraph [ref=f14e108]:
+              - link "Strategi Digital Marketing untuk Bisnis" [ref=f14e109] [cursor=pointer]:
+                - /url: detail-kelas.html?id=digital-marketing
+              - link "Geografi Indonesia dan Dinamika Bumi" [ref=f14e110] [cursor=pointer]:
+                - /url: detail-kelas.html?id=geografi-indonesia
+              - link "Bahasa Inggris untuk Pelajar" [ref=f14e111] [cursor=pointer]:
+                - /url: detail-kelas.html?id=bahasa-inggris
+  - contentinfo [ref=f14e113]:
+    - generic [ref=f14e114]:
+      - generic [ref=f14e115]:
+        - generic [ref=f14e116]:
+          - link "EduLearn" [ref=f14e117] [cursor=pointer]:
+            - /url: index.html
+            - generic [aria-hidden] [ref=f14e118]: ▣
+            - text: EduLearn
+          - paragraph [ref=f14e119]: Platform pembelajaran untuk menemukan kelas dan jalur belajar yang tepat.
+        - generic [ref=f14e120]:
+          - strong [ref=f14e121]: Navigasi
+          - list [ref=f14e122]:
+            - listitem [ref=f14e123]:
+              - link "Jelajahi Kelas" [ref=f14e124] [cursor=pointer]:
+                - /url: kelas.html
+            - listitem [ref=f14e125]:
+              - link "Program Belajar" [ref=f14e126] [cursor=pointer]:
+                - /url: program.html
+            - listitem [ref=f14e127]:
+              - link "Jenjang" [ref=f14e128] [cursor=pointer]:
+                - /url: mentor.html
+        - generic [ref=f14e129]:
+          - strong [ref=f14e130]: Kontak
+          - list [ref=f14e131]:
+            - listitem [ref=f14e132]: halo@edulearn.id
+            - listitem [ref=f14e133]: Jakarta, Indonesia
+      - generic [ref=f14e134]: © 2026 EduLearn. Seluruh hak dilindungi.

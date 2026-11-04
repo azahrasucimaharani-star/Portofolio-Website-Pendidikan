@@ -1,0 +1,2 @@
+[     385ms] The requested module './assets/js/main.js' does not provide an export named 'bindBookmarks'
+[     532ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8001/favicon.ico:0

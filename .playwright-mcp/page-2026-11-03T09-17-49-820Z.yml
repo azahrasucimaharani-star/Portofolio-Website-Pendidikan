@@ -1,0 +1,208 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e2]:
+    - link "Lewati ke konten" [ref=f31e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f31e4]:
+      - navigation "Navigasi utama" [ref=f31e5]:
+        - link "Bimbel, beranda" [ref=f31e6] [cursor=pointer]:
+          - /url: index.html
+          - img "Bimbel � Belajar Terarah, Prestasi Nyata" [ref=f31e7]
+        - generic [ref=f31e8]:
+          - link "Cari kelas" [ref=f31e9] [cursor=pointer]:
+            - /url: kelas.html
+          - button "Buka menu" [ref=f31e10] [cursor=pointer]: ☰
+  - main [ref=f31e11]:
+    - region "Pilihan mata pelajaran" [ref=f31e12]:
+      - generic [ref=f31e13]:
+        - strong [ref=f31e14]: Mata pelajaran
+        - navigation "Daftar mata pelajaran" [ref=f31e15]:
+          - link "Matematika" [ref=f31e16] [cursor=pointer]:
+            - /url: kelas.html?category=Matematika
+          - link "IPA" [ref=f31e17] [cursor=pointer]:
+            - /url: kelas.html?category=IPA
+          - link "Fisika" [ref=f31e18] [cursor=pointer]:
+            - /url: kelas.html?category=Fisika
+          - link "Geografi" [ref=f31e19] [cursor=pointer]:
+            - /url: kelas.html?category=Geografi
+          - link "Biologi" [ref=f31e20] [cursor=pointer]:
+            - /url: kelas.html?category=Biologi
+          - link "Kimia" [ref=f31e21] [cursor=pointer]:
+            - /url: kelas.html?category=Kimia
+          - link "Bahasa Inggris" [ref=f31e22] [cursor=pointer]:
+            - /url: kelas.html?category=Bahasa%20Inggris
+          - link "Bahasa Indonesia" [ref=f31e23] [cursor=pointer]:
+            - /url: kelas.html?category=Bahasa%20Indonesia
+          - link "Ekonomi" [ref=f31e24] [cursor=pointer]:
+            - /url: kelas.html?category=Ekonomi
+          - link "Sejarah" [ref=f31e25] [cursor=pointer]:
+            - /url: kelas.html?category=Sejarah
+          - link "Informatika" [ref=f31e26] [cursor=pointer]:
+            - /url: kelas.html?category=Informatika
+    - region [ref=f31e27]:
+      - generic [ref=f31e28]:
+        - text: Layanan belajar
+        - heading "Dukungan belajar sesuai kebutuhanmu" [level=2] [ref=f31e29]
+      - generic [ref=f31e30]:
+        - link "Kelas Mata Pelajaran Materi SMP dan SMA" [ref=f31e31] [cursor=pointer]:
+          - /url: kelas.html
+          - strong [ref=f31e32]: Kelas Mata Pelajaran
+          - generic [ref=f31e33]: Materi SMP dan SMA
+        - link "Program Terstruktur Jadwal belajar bertahap" [ref=f31e34] [cursor=pointer]:
+          - /url: program.html
+          - strong [ref=f31e35]: Program Terstruktur
+          - generic [ref=f31e36]: Jadwal belajar bertahap
+        - link "Persiapan Ujian Latihan lintas pelajaran" [ref=f31e37] [cursor=pointer]:
+          - /url: detail-program.html?id=persiapan-ujian
+          - strong [ref=f31e38]: Persiapan Ujian
+          - generic [ref=f31e39]: Latihan lintas pelajaran
+    - generic [ref=f31e41]:
+      - generic [ref=f31e42]:
+        - text: Platform kelas online
+        - heading "Belajar Kapan Saja, Kuasai Skill Masa Depan" [level=1] [ref=f31e43]
+        - paragraph [ref=f31e44]: Kelas praktis bersama mentor profesional, dirancang relevan dengan kebutuhan industri.
+        - generic [ref=f31e45]:
+          - link "Jelajahi Kelas" [ref=f31e46] [cursor=pointer]:
+            - /url: kelas.html
+          - link "Cara Belajar" [ref=f31e47] [cursor=pointer]:
+            - /url: "#cara-belajar"
+      - figure [ref=f31e48]:
+        - img "Peserta belajar bersama menggunakan laptop" [ref=f31e49]
+    - complementary "Ringkasan katalog" [ref=f31e50]:
+      - list [ref=f31e51]:
+        - listitem [ref=f31e52]:
+          - strong [ref=f31e53]: "6"
+          - text: Kelas tersedia
+        - listitem [ref=f31e54]:
+          - strong [ref=f31e55]: "4"
+          - text: Mentor profesional
+        - listitem [ref=f31e56]:
+          - strong [ref=f31e57]: "3"
+          - text: Program belajar
+    - region [ref=f31e58]:
+      - generic [ref=f31e59]:
+        - generic [ref=f31e60]:
+          - heading "Pilihan Kelas Populer" [level=2] [ref=f31e61]
+          - paragraph [ref=f31e62]: Kelas dengan topik praktis untuk memulai langkah belajarmu.
+        - link "Lihat semua kelas" [ref=f31e63] [cursor=pointer]:
+          - /url: kelas.html
+      - generic [ref=f31e64]:
+        - article [ref=f31e65]:
+          - link [ref=f31e66] [cursor=pointer]:
+            - /url: detail-kelas.html?id=ui-ux-pemula
+            - img "Materi kelas UI/UX Design untuk Pemula" [ref=f31e67]
+          - generic [ref=f31e68]:
+            - generic [ref=f31e69]:
+              - generic [ref=f31e70]: Desain
+              - generic [ref=f31e71]: Mahasiswa
+            - heading [level=3] [ref=f31e72]:
+              - link "UI/UX Design untuk Pemula" [ref=f31e73] [cursor=pointer]:
+                - /url: detail-kelas.html?id=ui-ux-pemula
+            - paragraph [ref=f31e74]: Kelas keterampilan
+            - generic "Rating 4.9 dari 5" [ref=f31e75]: ★ 4.9 (1.240)
+            - generic [ref=f31e76]:
+              - generic [ref=f31e77]: 8 modul
+              - generic [ref=f31e78]: 16 jam
+              - generic [ref=f31e79]: Pemula
+            - generic [ref=f31e80]:
+              - generic [ref=f31e81]: Rp299.000
+              - button "Simpan kelas" [ref=f31e82] [cursor=pointer]: ♡
+        - article [ref=f31e83]:
+          - link [ref=f31e84] [cursor=pointer]:
+            - /url: detail-kelas.html?id=web-fundamental
+            - img "Materi kelas Dasar Pemrograman Web (HTML, CSS, JS)" [ref=f31e85]
+          - generic [ref=f31e86]:
+            - generic [ref=f31e87]:
+              - generic [ref=f31e88]: Pemrograman
+              - generic [ref=f31e89]: Mahasiswa
+            - heading [level=3] [ref=f31e90]:
+              - link "Dasar Pemrograman Web (HTML, CSS, JS)" [ref=f31e91] [cursor=pointer]:
+                - /url: detail-kelas.html?id=web-fundamental
+            - paragraph [ref=f31e92]: Kelas keterampilan
+            - generic "Rating 4.8 dari 5" [ref=f31e93]: ★ 4.8 (2.130)
+            - generic [ref=f31e94]:
+              - generic [ref=f31e95]: 10 modul
+              - generic [ref=f31e96]: 20 jam
+              - generic [ref=f31e97]: Pemula
+            - generic [ref=f31e98]:
+              - generic [ref=f31e99]: Rp349.000
+              - button "Simpan kelas" [ref=f31e100] [cursor=pointer]: ♡
+        - article [ref=f31e101]:
+          - link [ref=f31e102] [cursor=pointer]:
+            - /url: detail-kelas.html?id=excel-data
+            - img "Materi kelas Analisis Data dengan Excel" [ref=f31e103]
+          - generic [ref=f31e104]:
+            - generic [ref=f31e105]:
+              - generic [ref=f31e106]: Data
+              - generic [ref=f31e107]: Mahasiswa
+            - heading [level=3] [ref=f31e108]:
+              - link "Analisis Data dengan Excel" [ref=f31e109] [cursor=pointer]:
+                - /url: detail-kelas.html?id=excel-data
+            - paragraph [ref=f31e110]: Kelas keterampilan
+            - generic "Rating 4.8 dari 5" [ref=f31e111]: ★ 4.8 (980)
+            - generic [ref=f31e112]:
+              - generic [ref=f31e113]: 6 modul
+              - generic [ref=f31e114]: 12 jam
+              - generic [ref=f31e115]: Pemula
+            - generic [ref=f31e116]:
+              - generic [ref=f31e117]: Rp199.000
+              - button "Simpan kelas" [ref=f31e118] [cursor=pointer]: ♡
+        - article [ref=f31e119]:
+          - link [ref=f31e120] [cursor=pointer]:
+            - /url: detail-kelas.html?id=digital-marketing
+            - img "Materi kelas Strategi Digital Marketing untuk Bisnis" [ref=f31e121]
+          - generic [ref=f31e122]:
+            - generic [ref=f31e123]:
+              - generic [ref=f31e124]: Bisnis
+              - generic [ref=f31e125]: Profesional
+            - heading [level=3] [ref=f31e126]:
+              - link "Strategi Digital Marketing untuk Bisnis" [ref=f31e127] [cursor=pointer]:
+                - /url: detail-kelas.html?id=digital-marketing
+            - paragraph [ref=f31e128]: Kelas keterampilan
+            - generic "Rating 4.9 dari 5" [ref=f31e129]: ★ 4.9 (1.520)
+            - generic [ref=f31e130]:
+              - generic [ref=f31e131]: 8 modul
+              - generic [ref=f31e132]: 18 jam
+              - generic [ref=f31e133]: Menengah
+            - generic [ref=f31e134]:
+              - generic [ref=f31e135]: Rp299.000
+              - button "Simpan kelas" [ref=f31e136] [cursor=pointer]: ♡
+    - generic [ref=f31e138]:
+      - generic [ref=f31e139]:
+        - heading "Program Belajar Terstruktur" [level=2] [ref=f31e140]
+        - paragraph [ref=f31e141]: Ikuti urutan kelas sesuai tujuanmu, dari fondasi hingga proyek akhir.
+      - link "Lihat Program" [ref=f31e142] [cursor=pointer]:
+        - /url: program.html
+    - region [ref=f31e143]:
+      - generic [ref=f31e144]:
+        - generic [ref=f31e145]:
+          - heading "Belajar dari Mentor Profesional" [level=2] [ref=f31e146]
+          - paragraph [ref=f31e147]: Bimbingan dari praktisi berpengalaman di bidangnya.
+        - link "Lihat jenjang dan mentor" [ref=f31e148] [cursor=pointer]:
+          - /url: mentor.html
+      - generic [ref=f31e149]:
+        - article [ref=f31e150]:
+          - img "Raka Pratama, Data Analyst" [ref=f31e151]
+          - generic [ref=f31e152]:
+            - heading "Raka Pratama" [level=3] [ref=f31e153]
+            - paragraph [ref=f31e154]: Data Analyst
+        - article [ref=f31e155]:
+          - img "Nadia Siregar, Product Designer" [ref=f31e156]
+          - generic [ref=f31e157]:
+            - heading "Nadia Siregar" [level=3] [ref=f31e158]
+            - paragraph [ref=f31e159]: Product Designer
+        - article [ref=f31e160]:
+          - img "Andi Wijaya, Frontend Engineer" [ref=f31e161]
+          - generic [ref=f31e162]:
+            - heading "Andi Wijaya" [level=3] [ref=f31e163]
+            - paragraph [ref=f31e164]: Frontend Engineer
+        - article [ref=f31e165]:
+          - img "Putri Anindya, Digital Marketing Specialist" [ref=f31e166]
+          - generic [ref=f31e167]:
+            - heading "Putri Anindya" [level=3] [ref=f31e168]
+            - paragraph [ref=f31e169]: Digital Marketing Specialist
+    - generic [ref=f31e171]:
+      - generic [ref=f31e172]:
+        - heading "Mulai Perjalanan Belajarmu Sekarang" [level=2] [ref=f31e173]
+        - paragraph [ref=f31e174]: Temukan kelas yang sesuai dengan tujuan dan tingkat kemampuanmu.
+      - link "Temukan Kelas" [ref=f31e175] [cursor=pointer]:
+        - /url: kelas.html

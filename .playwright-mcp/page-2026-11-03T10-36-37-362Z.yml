@@ -1,0 +1,89 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - link "Lewati ke konten" [ref=f7e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f7e4]:
+      - navigation "Navigasi utama" [ref=f7e5]:
+        - link "Bimbelku, beranda" [ref=f7e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [ref=f7e7]: Bimbelku
+        - button "Buka menu" [ref=f7e8] [cursor=pointer]: Menu
+    - link "Lihat semua program bimbel" [ref=f7e9] [cursor=pointer]:
+      - /url: program.html
+      - generic [ref=f7e10]: Lihat Program
+      - generic [aria-hidden] [ref=f7e11]: →
+  - main [ref=f7e12]:
+    - generic [ref=f7e14]:
+      - text: Tentang Kami
+      - heading "Ruang Belajar yang Terarah dan Mendukung" [level=1] [ref=f7e15]
+      - paragraph [ref=f7e16]: Bimbelku mendampingi siswa memahami pelajaran melalui kelas kecil, tutor yang komunikatif, dan evaluasi berkala.
+    - region "Profil Bimbelku" [ref=f7e17]:
+      - article [ref=f7e18]:
+        - generic [ref=f7e19]: "01"
+        - generic [ref=f7e20]:
+          - heading "Visi" [level=2] [ref=f7e21]
+          - paragraph [ref=f7e22]: Menjadi ruang belajar yang membantu siswa membangun pemahaman, kemandirian, dan kebiasaan belajar yang baik.
+      - article [ref=f7e23]:
+        - generic [ref=f7e24]: "02"
+        - generic [ref=f7e25]:
+          - heading "Misi" [level=2] [ref=f7e26]
+          - list [ref=f7e27]:
+            - listitem [ref=f7e28]: Menyediakan program sesuai jenjang dan kebutuhan siswa.
+            - listitem [ref=f7e29]: Mengutamakan pemahaman konsep melalui latihan bertahap.
+            - listitem [ref=f7e30]: Menyampaikan perkembangan belajar dengan jelas kepada siswa dan orang tua.
+      - article [ref=f7e31]:
+        - generic [ref=f7e32]: "03"
+        - generic [ref=f7e33]:
+          - heading "Metode Belajar" [level=2] [ref=f7e34]
+          - paragraph [ref=f7e35]: Setiap program dimulai dengan pemetaan kebutuhan. Tutor menjelaskan konsep, memberi latihan terarah, melakukan evaluasi, lalu menentukan materi yang perlu diperkuat.
+      - article [ref=f7e36]:
+        - generic [ref=f7e37]: "04"
+        - generic [ref=f7e38]:
+          - heading "Fasilitas" [level=2] [ref=f7e39]
+          - list [ref=f7e40]:
+            - listitem [ref=f7e41]: Ruang kelas berkapasitas kecil.
+            - listitem [ref=f7e42]: Papan tulis dan perangkat presentasi.
+            - listitem [ref=f7e43]: Ruang konsultasi siswa dan orang tua.
+            - listitem [ref=f7e44]: Akses kelas online untuk program hybrid.
+      - article [ref=f7e45]:
+        - generic [ref=f7e46]: "05"
+        - generic [ref=f7e47]:
+          - heading "Lokasi dan Kontak" [level=2] [ref=f7e48]
+          - generic [ref=f7e49]:
+            - generic [ref=f7e50]: Jl. Pendidikan No. 25, Jakarta
+            - link "info@bimbelku.id" [ref=f7e51] [cursor=pointer]:
+              - /url: mailto:info@bimbelku.id
+            - generic [ref=f7e52]: Senin–Sabtu, 09.00–20.00
+      - complementary [ref=f7e53]:
+        - generic [ref=f7e54]:
+          - text: Langkah berikutnya
+          - heading "Temukan pendampingan yang tepat untuk siswa." [level=2] [ref=f7e55]
+          - paragraph [ref=f7e56]: Bandingkan jenjang, jadwal, format kelas, dan biaya dalam satu halaman.
+        - link "Lihat Program Bimbel" [ref=f7e57] [cursor=pointer]:
+          - /url: program.html
+  - contentinfo [ref=f7e59]:
+    - generic [ref=f7e60]:
+      - generic [ref=f7e61]:
+        - generic [ref=f7e62]:
+          - link "Bimbelku" [ref=f7e63] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=f7e65]: Bimbingan belajar untuk membantu siswa memahami konsep dan membangun kebiasaan belajar yang terarah.
+        - generic [ref=f7e66]:
+          - strong [ref=f7e67]: Navigasi
+          - list [ref=f7e68]:
+            - listitem [ref=f7e69]:
+              - link "Program Bimbel" [ref=f7e70] [cursor=pointer]:
+                - /url: program.html
+            - listitem [ref=f7e71]:
+              - link "Jadwal & Biaya" [ref=f7e72] [cursor=pointer]:
+                - /url: jadwal.html
+            - listitem [ref=f7e73]:
+              - link "Tutor" [ref=f7e74] [cursor=pointer]:
+                - /url: tutor.html
+        - generic [ref=f7e75]:
+          - strong [ref=f7e76]: Kontak
+          - list [ref=f7e77]:
+            - listitem [ref=f7e78]: info@bimbelku.id
+            - listitem [ref=f7e79]: Jl. Pendidikan No. 25, Jakarta
+            - listitem [ref=f7e80]: Senin–Sabtu, 09.00–20.00
+      - generic [ref=f7e81]: © 2026 Bimbelku. Seluruh hak dilindungi.

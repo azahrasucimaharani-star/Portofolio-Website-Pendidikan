@@ -1,0 +1,144 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - link "Lewati ke konten" [ref=f3e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f3e4]:
+      - navigation "Navigasi utama" [ref=f3e5]:
+        - link "EduLearn, beranda" [ref=f3e6] [cursor=pointer]:
+          - /url: index.html
+          - generic [aria-hidden] [ref=f3e7]: ▣
+          - text: EduLearn
+        - button "Buka menu" [ref=f3e9] [cursor=pointer]: ☰
+  - main [ref=f3e10]:
+    - generic [ref=f3e12]:
+      - heading "Jelajahi Kelas" [level=1] [ref=f3e13]
+      - paragraph [ref=f3e14]: Temukan kelas praktis berdasarkan topik, tingkat kemampuan, dan tujuan belajarmu.
+      - strong [ref=f3e15]: 6 kelas ditemukan
+    - generic [ref=f3e16]:
+      - generic [ref=f3e17]:
+        - generic [ref=f3e18]:
+          - generic [ref=f3e19]: Cari kelas
+          - searchbox "Cari kelas" [ref=f3e20]
+        - generic [ref=f3e21]:
+          - generic [ref=f3e22]: Kategori
+          - combobox "Kategori" [ref=f3e23]:
+            - option "Semua kategori" [selected]
+            - option "Desain"
+            - option "Pemrograman"
+            - option "Data"
+            - option "Bisnis"
+        - generic [ref=f3e24]:
+          - generic [ref=f3e25]: Tingkat
+          - combobox "Tingkat" [ref=f3e26]:
+            - option "Semua tingkat" [selected]
+            - option "Pemula"
+            - option "Menengah"
+        - generic [ref=f3e27]:
+          - generic [ref=f3e28]: Urutkan
+          - combobox "Urutkan" [ref=f3e29]:
+            - option "Terpopuler" [selected]
+            - option "A–Z"
+            - option "Harga terendah"
+      - generic [ref=f3e30]:
+        - article [ref=f3e31]:
+          - link [ref=f3e32] [cursor=pointer]:
+            - /url: detail-kelas.html?id=web-fundamental
+            - img "Materi kelas Dasar Pemrograman Web (HTML, CSS, JS)" [ref=f3e33]
+          - generic [ref=f3e34]:
+            - generic [ref=f3e35]: Pemrograman
+            - heading [level=3] [ref=f3e36]:
+              - link "Dasar Pemrograman Web (HTML, CSS, JS)" [ref=f3e37] [cursor=pointer]:
+                - /url: detail-kelas.html?id=web-fundamental
+            - generic "Rating demo 4.8 dari 5" [ref=f3e38]: ★ 4.8 (2.130)
+            - generic [ref=f3e39]:
+              - generic [ref=f3e40]: 10 modul
+              - generic [ref=f3e41]: 20 jam
+              - generic [ref=f3e42]: Pemula
+            - generic [ref=f3e43]:
+              - generic [ref=f3e44]: Rp349.000
+              - button "Simpan kelas" [ref=f3e45] [cursor=pointer]: ♡
+        - article [ref=f3e46]:
+          - link [ref=f3e47] [cursor=pointer]:
+            - /url: detail-kelas.html?id=digital-marketing
+            - img "Materi kelas Strategi Digital Marketing untuk Bisnis" [ref=f3e48]
+          - generic [ref=f3e49]:
+            - generic [ref=f3e50]: Bisnis
+            - heading [level=3] [ref=f3e51]:
+              - link "Strategi Digital Marketing untuk Bisnis" [ref=f3e52] [cursor=pointer]:
+                - /url: detail-kelas.html?id=digital-marketing
+            - generic "Rating demo 4.9 dari 5" [ref=f3e53]: ★ 4.9 (1.520)
+            - generic [ref=f3e54]:
+              - generic [ref=f3e55]: 8 modul
+              - generic [ref=f3e56]: 18 jam
+              - generic [ref=f3e57]: Menengah
+            - generic [ref=f3e58]:
+              - generic [ref=f3e59]: Rp299.000
+              - button "Simpan kelas" [ref=f3e60] [cursor=pointer]: ♡
+        - article [ref=f3e61]:
+          - link [ref=f3e62] [cursor=pointer]:
+            - /url: detail-kelas.html?id=ui-ux-pemula
+            - img "Materi kelas UI/UX Design untuk Pemula" [ref=f3e63]
+          - generic [ref=f3e64]:
+            - generic [ref=f3e65]: Desain
+            - heading [level=3] [ref=f3e66]:
+              - link "UI/UX Design untuk Pemula" [ref=f3e67] [cursor=pointer]:
+                - /url: detail-kelas.html?id=ui-ux-pemula
+            - generic "Rating demo 4.9 dari 5" [ref=f3e68]: ★ 4.9 (1.240)
+            - generic [ref=f3e69]:
+              - generic [ref=f3e70]: 8 modul
+              - generic [ref=f3e71]: 16 jam
+              - generic [ref=f3e72]: Pemula
+            - generic [ref=f3e73]:
+              - generic [ref=f3e74]: Rp299.000
+              - button "Simpan kelas" [ref=f3e75] [cursor=pointer]: ♡
+        - article [ref=f3e76]:
+          - link [ref=f3e77] [cursor=pointer]:
+            - /url: detail-kelas.html?id=excel-data
+            - img "Materi kelas Analisis Data dengan Excel" [ref=f3e78]
+          - generic [ref=f3e79]:
+            - generic [ref=f3e80]: Data
+            - heading [level=3] [ref=f3e81]:
+              - link "Analisis Data dengan Excel" [ref=f3e82] [cursor=pointer]:
+                - /url: detail-kelas.html?id=excel-data
+            - generic "Rating demo 4.8 dari 5" [ref=f3e83]: ★ 4.8 (980)
+            - generic [ref=f3e84]:
+              - generic [ref=f3e85]: 6 modul
+              - generic [ref=f3e86]: 12 jam
+              - generic [ref=f3e87]: Pemula
+            - generic [ref=f3e88]:
+              - generic [ref=f3e89]: Rp199.000
+              - button "Simpan kelas" [ref=f3e90] [cursor=pointer]: ♡
+        - article [ref=f3e91]:
+          - link [ref=f3e92] [cursor=pointer]:
+            - /url: detail-kelas.html?id=javascript-lanjutan
+            - img "Materi kelas JavaScript Modern dan API" [ref=f3e93]
+          - generic [ref=f3e94]:
+            - generic [ref=f3e95]: Pemrograman
+            - heading [level=3] [ref=f3e96]:
+              - link "JavaScript Modern dan API" [ref=f3e97] [cursor=pointer]:
+                - /url: detail-kelas.html?id=javascript-lanjutan
+            - generic "Rating demo 4.7 dari 5" [ref=f3e98]: ★ 4.7 (640)
+            - generic [ref=f3e99]:
+              - generic [ref=f3e100]: 9 modul
+              - generic [ref=f3e101]: 24 jam
+              - generic [ref=f3e102]: Menengah
+            - generic [ref=f3e103]:
+              - generic [ref=f3e104]: Rp399.000
+              - button "Simpan kelas" [ref=f3e105] [cursor=pointer]: ♡
+        - article [ref=f3e106]:
+          - link [ref=f3e107] [cursor=pointer]:
+            - /url: detail-kelas.html?id=product-research
+            - img "Materi kelas Riset Produk Digital" [ref=f3e108]
+          - generic [ref=f3e109]:
+            - generic [ref=f3e110]: Desain
+            - heading [level=3] [ref=f3e111]:
+              - link "Riset Produk Digital" [ref=f3e112] [cursor=pointer]:
+                - /url: detail-kelas.html?id=product-research
+            - generic "Rating demo 4.7 dari 5" [ref=f3e113]: ★ 4.7 (430)
+            - generic [ref=f3e114]:
+              - generic [ref=f3e115]: 7 modul
+              - generic [ref=f3e116]: 14 jam
+              - generic [ref=f3e117]: Menengah
+            - generic [ref=f3e118]:
+              - generic [ref=f3e119]: Rp279.000
+              - button "Simpan kelas" [ref=f3e120] [cursor=pointer]: ♡
