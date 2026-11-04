@@ -1,0 +1,5 @@
+.playwright-mcp/
+.brud/
+.vscode/
+qa-*.png
+*.log

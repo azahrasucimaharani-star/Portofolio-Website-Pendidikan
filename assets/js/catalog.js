@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('#catalog-grid');
   if (!grid) return;
@@ -35,3 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
   reset.addEventListener('click', clear);
   render();
 });
+=======
+import{programs}from'./data/programs.js';import{tutors}from'./data/tutors.js';import{programCard}from'./main.js';
+const grid=document.querySelector('#program-grid'),search=document.querySelector('#search'),level=document.querySelector('#level'),subject=document.querySelector('#subject'),format=document.querySelector('#format'),sort=document.querySelector('#sort'),count=document.querySelector('#program-count'),empty=document.querySelector('#empty'),reset=document.querySelector('#reset');
+function render(){const q=search.value.toLowerCase().trim();let items=programs.filter(p=>(p.title+' '+p.summary+' '+p.subjects.join(' ')).toLowerCase().includes(q)&&(level.value==='all'||p.level===level.value)&&(subject.value==='all'||p.subjects.includes(subject.value))&&(format.value==='all'||p.format===format.value));items.sort((a,b)=>sort.value==='az'?a.title.localeCompare(b.title):new Date(b.createdAt)-new Date(a.createdAt));grid.innerHTML=items.map(p=>programCard(p,tutors)).join('');count.textContent=`${items.length} program tersedia`;empty.classList.toggle('visible',!items.length)}
+[search,level,subject,format,sort].forEach(el=>el.addEventListener('input',render));reset.addEventListener('click',()=>{search.value='';level.value=subject.value=format.value='all';sort.value='latest';render()});render();
+>>>>>>> 2fbe8a9fa74b2b2a9462d9e50c1d9085ad7158cb
