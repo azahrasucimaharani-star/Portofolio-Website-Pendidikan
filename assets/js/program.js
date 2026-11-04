@@ -21,6 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   document.title = `${program.title} — Educourse`;
   const sequence = program.courseIds.map(courseById).filter(Boolean);
+  if (!sequence.length) {
+    mount.innerHTML = '<div class="container error-page"><div class="empty-state"><h1>Isi program belum tersedia.</h1><p>Program ini belum memiliki kelas yang dapat ditampilkan.</p><a class="btn btn--primary" href="program.html">Kembali ke Program</a></div></div>';
+    return;
+  }
   mount.innerHTML = `
     <header class="page-header"><div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span aria-hidden="true">/</span><a href="program.html">Program Belajar</a><span aria-hidden="true">/</span><span aria-current="page">${program.title}</span></nav>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', () => {
   const mount = document.querySelector('[data-detail]');
   if (!mount) return;
@@ -10,6 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   document.title = `${course.title} — Educourse`;
   const mentor = mentorById(course.mentorId);
+  if (!mentor) {
+    mount.innerHTML = '<div class="container error-page"><div class="empty-state"><h1>Data mentor belum tersedia.</h1><p>Detail kelas ini belum dapat ditampilkan dengan lengkap.</p><a class="btn btn--primary" href="kelas.html">Kembali ke Jelajahi Kelas</a></div></div>';
+    return;
+  }
   let enrollmentUrl;
   try {
     const url = new URL(course.enrollmentUrl);
@@ -50,8 +53,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
-=======
-import{programs}from'./data/programs.js';import{tutors}from'./data/tutors.js';import{schedules}from'./data/schedules.js';
-const root=document.querySelector('#detail-root'),program=programs.find(p=>p.id===new URLSearchParams(location.search).get('id'));
-if(!program){root.innerHTML='<section class="section container"><h1>Program tidak ditemukan</h1><p>Program yang Anda cari tidak tersedia atau tautannya telah berubah.</p><a class="button button-primary" href="program.html">Kembali ke Program Bimbel</a></section>'}else{const teachers=program.tutorIds.map(id=>tutors.find(t=>t.id===id)).filter(Boolean),times=schedules.filter(s=>s.programId===program.id);document.title=`${program.title} — Bimbelku`;root.innerHTML=`<div class="breadcrumb container"><a href="index.html">Beranda</a> / <a href="program.html">Program Bimbel</a> / ${program.title}</div><section class="section container detail-hero"><div><div class="badge-row"><span class="badge badge-accent">${program.level}</span><span class="badge">${program.format}</span></div><h1>${program.title}</h1><p>${program.summary}</p><div class="meta"><span>${program.subjects.join(', ')}</span><span>${program.meetingsPerWeek}x per minggu</span><span>${program.sessionDuration}</span></div></div><img src="${program.image}" width="720" height="480" alt="Kegiatan belajar ${program.title}"></section><section class="section container detail-layout"><div><h2 class="content-title">Target hasil belajar</h2><ul>${program.targetOutcomes.map(x=>`<li>${x}</li>`).join('')}</ul><h2 class="content-title">Materi per bulan</h2><div class="accordion">${program.syllabus.map((m,i)=>`<div><button type="button" aria-expanded="${i===0}" aria-controls="month-${i}">${m.month}</button><div class="accordion-panel" id="month-${i}" ${i?'hidden':''}><ul>${m.topics.map(x=>`<li>${x}</li>`).join('')}</ul></div></div>`).join('')}</div><h2 class="content-title">Siapa yang cocok?</h2><p>${program.suitableFor}</p><h2 class="content-title">FAQ</h2><div class="accordion">${[['Apakah tersedia kelas percobaan?','Kelas percobaan dapat dijadwalkan berdasarkan ketersediaan kelas.'],['Bagaimana jika siswa tidak dapat hadir?','Siswa dapat meminta materi dan jadwal pengganti sesuai kebijakan kelas.'],['Apakah materi mengikuti sekolah?','Tutor menyesuaikan pembahasan dengan materi sekolah dan kebutuhan siswa.'],['Bagaimana laporan perkembangan diberikan?','Ringkasan perkembangan disampaikan secara berkala kepada siswa dan orang tua.']].map((x,i)=>`<div><button type="button" aria-expanded="false" aria-controls="faq-${i}">${x[0]}</button><div class="accordion-panel" id="faq-${i}" hidden>${x[1]}</div></div>`).join('')}</div></div><aside><div class="detail-panel"><h2>Ringkasan program</h2><p><strong>${program.priceLabel}</strong></p><p>${program.meetingsPerWeek} pertemuan per minggu<br>${program.sessionDuration} per sesi<br>Maksimal ${program.classCapacity} siswa</p><p class="status">Pendaftaran belum dibuka</p></div><div class="detail-panel"><h2>Jadwal tersedia</h2>${times.map(s=>`<p><strong>${s.day}</strong><br>${s.time}<br>${s.room}</p>`).join('')}</div><div class="detail-panel"><h2>Tutor pengajar</h2>${teachers.map(t=>`<p><strong>${t.name}</strong><br>${t.subjects.join(', ')}<br>${t.experience}</p>`).join('')}</div></aside></section>`;root.querySelectorAll('.accordion button').forEach(button=>button.addEventListener('click',()=>{const panel=document.getElementById(button.getAttribute('aria-controls')),open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));panel.hidden=open}))}
->>>>>>> 2fbe8a9fa74b2b2a9462d9e50c1d9085ad7158cb

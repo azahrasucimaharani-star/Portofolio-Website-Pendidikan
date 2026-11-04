@@ -1,1 +1,35 @@
-<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Jadwal & Biaya — Bimbelku</title><meta name="description" content="Lihat jadwal kelas, paket belajar, biaya, dan alur pendaftaran bimbel."><link rel="icon" type="image/png" href="favicon.png"><link rel="stylesheet" href="assets/css/main.css"><link rel="stylesheet" href="assets/css/responsive.css"></head><body><div id="header"></div><main id="main"><header class="page-head"><div class="container"><span class="label">Jadwal &amp; Biaya</span><h1>Rencanakan Waktu Belajar</h1><p>Pilih jadwal yang sesuai dengan kegiatan sekolah dan kebutuhan belajar siswa.</p></div></header><section class="section container" aria-labelledby="schedule-title"><div class="section-head"><div><h2 id="schedule-title">Jadwal Kelas</h2><p>Jadwal dapat berubah mengikuti ketersediaan kelas dan tutor.</p></div><div class="field"><label for="schedule-level">Filter jenjang</label><select id="schedule-level"><option value="all">Semua jenjang</option><option>SD</option><option>SMP</option><option>SMA/SMK</option><option>UTBK</option></select></div></div><div class="schedule-scroll"><table class="schedule-table"><thead><tr><th>Program</th><th>Jenjang</th><th>Hari</th><th>Waktu</th><th>Ruang/format</th></tr></thead><tbody id="schedule-body"></tbody></table></div></section><section class="section" aria-labelledby="package-title"><div class="container"><div class="section-head"><div><h2 id="package-title">Paket Belajar</h2><p>Pilih intensitas pendampingan berdasarkan target siswa.</p></div></div><div class="package-grid" id="package-grid"></div></div></section><section class="section container" aria-labelledby="steps-title"><div class="section-head"><div><h2 id="steps-title">Alur Pendaftaran</h2><p>Empat langkah sebelum siswa mulai belajar.</p></div></div><ol class="steps"><li><strong>1. Pilih program</strong><p>Sesuaikan jenjang dan mata pelajaran.</p></li><li><strong>2. Periksa jadwal</strong><p>Pastikan waktu kelas sesuai.</p></li><li><strong>3. Hubungi admin</strong><p>Konfirmasi ketersediaan tempat.</p></li><li><strong>4. Mulai belajar</strong><p>Ikuti asesmen awal dan kelas.</p></li></ol></section><section class="section container prose"><h2>FAQ Pembayaran dan Kelas Percobaan</h2><h3>Bagaimana metode pembayaran?</h3><p>Pembayaran dilakukan melalui transfer bank setelah admin mengonfirmasi program dan jadwal.</p><h3>Apakah tersedia kelas percobaan?</h3><p>Kelas percobaan dapat dijadwalkan berdasarkan ketersediaan kelas.</p><h3>Bagaimana jika perlu mengganti jadwal?</h3><p>Perubahan jadwal perlu dikonfirmasi kepada admin sebelum periode belajar berikutnya.</p></section></main><div id="footer"></div><script type="module">import{shell,footer}from'./assets/js/main.js';document.querySelector('#header').innerHTML=shell();document.querySelector('#footer').innerHTML=footer();import('./assets/js/schedule.js')</script></body></html>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jadwal Belajar — Educourse</title>
+  <meta name="description" content="Informasi ketersediaan belajar demo Educourse.">
+  <link rel="icon" type="image/png" href="assets/images/educourse-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-page="kelas">
+  <a class="skip-link" href="#main-content">Langsung ke konten</a>
+  <header class="site-header" data-navbar></header>
+  <main id="main-content" tabindex="-1">
+    <header class="page-header"><div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Beranda</a><span aria-hidden="true">/</span><span aria-current="page">Jadwal</span></nav>
+      <span class="eyebrow">Informasi belajar</span>
+      <h1>Jadwal akan tersedia saat pendaftaran dibuka.</h1>
+      <p class="lede">Educourse saat ini merupakan demo portofolio. Jelajahi kelas dan program untuk melihat struktur pembelajaran yang tersedia.</p>
+    </div></header>
+    <section class="section"><div class="container empty-state">
+      <span class="eyebrow">Belum tersedia</span><h2>Belum ada jadwal kelas aktif.</h2>
+      <p>Silakan lihat katalog kelas atau program belajar sebagai langkah berikutnya.</p>
+      <a class="btn btn--primary" href="kelas.html">Jelajahi Kelas</a>
+    </div></section>
+  </main>
+  <div data-footer></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
