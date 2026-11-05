@@ -1,19 +1,28 @@
-# Bimbelku
+# Universitas Dewata Nusantara
 
-Website statis bimbingan belajar untuk siswa SD, SMP, SMA/SMK, dan peserta UTBK. Dibangun dengan HTML, CSS, dan Vanilla JavaScript tanpa backend.
+Website universitas multi-halaman dengan identitas visual hijau–emas dan gaya institutional editorial. Dibangun menggunakan HTML, CSS, dan JavaScript vanilla.
 
-## Menjalankan lokal
+## Halaman
+
+- Beranda
+- Tentang Kami
+- Akademik
+- Penerimaan
+- Kehidupan Kampus
+- Berita & Informasi
+- Detail berita
+
+## Menjalankan secara lokal
 
 ```bash
-py -m http.server 8000
+python -m http.server 8000
 ```
 
-Buka `http://localhost:8000`.
+Kemudian buka `http://localhost:8000`.
 
-## Deploy ke Vercel
+## Struktur utama
 
-Import folder atau repository ke Vercel, pilih **Other** sebagai framework preset, kosongkan build command, dan gunakan `.` sebagai output directory.
-
-## Catatan produksi
-
-Sebelum publikasi, ganti nomor kontak, alamat, kebijakan, harga, jadwal, foto, profil tutor, dan testimoni dengan informasi resmi. CTA pendaftaran belum aktif karena belum tersedia nomor WhatsApp resmi yang terverifikasi.
+- `assets/` — emblem dan gambar lokal yang telah dioptimalkan
+- `css/` — token, fondasi, komponen, dan gaya halaman
+- `js/` — navigasi, tab, accordion, filter, galeri, dan interaksi lain
+- `PROJECT_DESIGN.md` — arah visual dan aturan desain proyek

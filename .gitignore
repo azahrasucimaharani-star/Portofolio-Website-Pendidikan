@@ -1,5 +1,11 @@
 .playwright-mcp/
 .brud/
 .vscode/
+artifacts/
 qa-*.png
+*-preview.png
 *.log
+
+# Original high-resolution source files; optimized copies live under assets/.
+/Universitas Dewata Nusantara Emblem.png
+/Universitas Dewata Nusantara Façade.png

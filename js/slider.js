@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const slides=[...document.querySelectorAll('[data-slide]')];let i=0;if(slides.length) setInterval(()=>{slides[i].hidden=true;i=(i+1)%slides.length;slides[i].hidden=false},6000);});
